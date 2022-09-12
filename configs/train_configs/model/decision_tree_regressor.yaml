@@ -1,0 +1,3 @@
+_target_: sklearn.tree.DecisionTreeRegressor
+max_depth: null
+max_features: auto

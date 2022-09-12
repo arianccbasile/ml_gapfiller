@@ -1,0 +1,12 @@
+_target_: ml_gapfill.data_loader.ClassificationDataLoader
+train_val_data_path: ${train_val_data_path}
+test_data_path: ${test_data_path}
+train_val_splitter:
+  _target_: ml_gapfill.data_splitters.SplitOnColumn
+  test_size: ${test_size}
+  column: Y_species_label
+feature_prefix: ${feature_prefix}
+label_columns: ${target_Y}
+preprocessing_pipeline: ${preprocessing}
+autoencoder_mode: False
+batch_size: ${batch_size}

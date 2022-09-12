@@ -1,0 +1,18 @@
+experiment_name: komodo_fba_models_gapfilled
+
+run_idx: 0
+
+data_dir: ${user.wd}/data/komodo_scraper
+test_data: ${data_dir}/processed_data/labelled_komodo_df.csv
+
+compound_prefix: X_MEDIA_
+
+species_label: Y_species_label
+growth_label: Y_growth_class
+# models_dir: ${data_dir}/intermediate_data/ensemble_models/
+models_dir: ${user.wd}/mlruns/5/c7ef0b094aa0423490c173a361dacea8/artifacts/gapfilled_models
+media_path: ${data_dir}/processed_data/media_db.tsv
+
+defaults:
+  - _self_
+  - user: local

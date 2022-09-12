@@ -1,0 +1,4 @@
+_target_: sklearn.tree.ExtraTreeRegressor
+n_estimators: 10
+max_depth: null
+max_features: auto

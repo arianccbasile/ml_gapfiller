@@ -1,0 +1,4 @@
+_target_: sklearn.tree.DecisionTreeClassifier
+splitter: best
+max_depth: null
+max_features: auto

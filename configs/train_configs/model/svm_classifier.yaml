@@ -1,0 +1,6 @@
+_target_: sklearn.svm.SVC
+C: 1.0
+kernel: 'rbf'
+verbose: True
+
+

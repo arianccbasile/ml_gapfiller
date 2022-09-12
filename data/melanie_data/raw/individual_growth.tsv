@@ -1,0 +1,1825 @@
+species	medium	OD
+A. muciniphila	GMM	0.0
+A. odontolyticus	GMM	0.0
+A. putredinis	GMM	0.0
+A. shahii	GMM	0.0
+B. adolescentis	GMM	0.5875
+B. animalis subsp. lactis BI-07	GMM	0.7546
+B. animalis subsp. lactis BL-04	GMM	0.903
+B. caccae	GMM	0.837
+B. clarus	GMM	0.441
+B. coprocola	GMM	0.442666666666667
+B. crossotus	GMM	0.1375
+B. dorei	GMM	0.545
+B. eggerthii	GMM	0.349
+B. fragilis	GMM	0.696333333333333
+B. fragilis enterotoxigenic	GMM	0.7261875
+B. fragilis HM-20	GMM	0.581333333333333
+B. fragilis HM-709	GMM	0.761
+B. fragilis HM-710	GMM	0.726
+B. fragilis HM-711	GMM	0.643
+B. fragilis HM-712	GMM	0.648333333333333
+B. fragilis HM-713	GMM	0.649666666666667
+B. fragilis HM-714	GMM	0.634
+B. hansenii	GMM	0.361
+B. longum subsp. infantis	GMM	0.391666666666667
+B. longum subsp. longum	GMM	0.6813
+B. obeum	GMM	0.4305
+B. ovatus	GMM	0.635666666666667
+B. stercoris	GMM	0.510666666666667
+B. thetaiotaomicron	GMM	0.7422
+B. uniformis	GMM	0.7735
+B. uniformis HM-715	GMM	0.525333333333333
+B. uniformis HM-716	GMM	0.576666666666667
+B. vulgatus	GMM	0.6555
+B. vulgatus HM-720	GMM	0.584666666666667
+B. wadsworthia	GMM	0.0
+B. xylanisolvens	GMM	0.79
+C. aerofaciens	GMM	0.353
+C. bolteae	GMM	1.04683333333333
+C. catus	GMM	0.0
+C. comes	GMM	0.785214285714286
+C. leptum	GMM	0.0
+C. perfringens C36	GMM	0.4003
+C. perfringens S107	GMM	0.651833333333333
+C. ramosum	GMM	0.642
+C. saccharolyticum	GMM	0.646
+D. formicigenerans	GMM	0.440666666666667
+D. piger	GMM	0.0
+E. coli CFT073	GMM	0.994333333333333
+E. coli E2348/69	GMM	0.456166666666667
+E. coli ED1a	GMM	0.797333333333333
+E. coli H10407	GMM	0.396333333333333
+E. coli HM605	GMM	0.9395
+E. coli IAI1	GMM	1.0645
+E. coli UTI89	GMM	0.6876
+E. eligens	GMM	0.0
+E. lenta	GMM	0.0
+E. limosum	GMM	0.324
+E. rectale	GMM	0.461166666666667
+E. siraeum	GMM	0.325333333333333
+F. nucleatum subsp. animalis	GMM	0.0
+F. nucleatum subsp. nucleatum	GMM	0.479583333333333
+F. nucleatum subsp. vincentii	GMM	0.189666666666667
+H. parainfluenzae	GMM	0.0
+L. acidophilus	GMM	0.1765
+L. delbrueckii subsp. delbrueckii	GMM	0.0
+L. fermentum	GMM	0.0
+L. gasseri	GMM	0.8832
+L. lactis	GMM	0.833166666666667
+L. paracasei	GMM	0.442
+L. plantarum	GMM	0.716166666666667
+L. ruminis	GMM	0.194666666666667
+L. sakei subsp. sakei	GMM	0.1605
+L. salivarius	GMM	0.356666666666667
+L. vaginalis	GMM	0.0
+O. splanchnicus	GMM	0.332333333333333
+P. capillosus	GMM	0.0
+P. copri	GMM	0.244
+C. difficile	GMM	0.3535
+P. distasonis	GMM	0.624666666666667
+P. melaninogenica	GMM	0.0
+P. merdae	GMM	0.154
+R. bromii	GMM	0.0
+R. gnavus	GMM	0.843666666666667
+R. hominis	GMM	0.0
+R. intestinalis	GMM	0.414333333333333
+R. torques	GMM	0.19625
+S. flexneri	GMM	0.855166666666667
+S. parasanguinis	GMM	0.423
+S. salivarius	GMM	1.0312
+S. sonnei	GMM	0.723166666666667
+S. typhimurium ATCC14028	GMM	0.849666666666667
+S. typhimurium LT2	GMM	0.308666666666667
+V. cholerae A1552	GMM	0.3438
+V. cholerae N16961	GMM	0.374666666666667
+V. parvula	GMM	0.0
+Y. pseudotuberculosis	GMM	0.254625
+A. muciniphila	BHI++	0.0
+A. odontolyticus	BHI++	0.79525
+A. putredinis	BHI++	0.0
+A. shahii	BHI++	0.0
+B. adolescentis	BHI++	0.721625
+B. animalis subsp. lactis BI-07	BHI++	0.737833333333333
+B. animalis subsp. lactis BL-04	BHI++	0.853666666666667
+B. caccae	BHI++	0.397
+B. clarus	BHI++	0.465
+B. coprocola	BHI++	0.266
+B. crossotus	BHI++	0.0
+B. dorei	BHI++	0.289666666666667
+B. eggerthii	BHI++	0.368666666666667
+B. fragilis	BHI++	0.773833333333333
+B. fragilis enterotoxigenic	BHI++	0.635083333333333
+B. fragilis HM-20	BHI++	0.443333333333333
+B. fragilis HM-709	BHI++	0.461333333333333
+B. fragilis HM-710	BHI++	0.461
+B. fragilis HM-711	BHI++	0.459
+B. fragilis HM-712	BHI++	0.454666666666667
+B. fragilis HM-713	BHI++	0.436666666666667
+B. fragilis HM-714	BHI++	0.426333333333333
+B. hansenii	BHI++	0.740166666666667
+B. longum subsp. infantis	BHI++	0.534666666666667
+B. longum subsp. longum	BHI++	0.512666666666667
+B. obeum	BHI++	0.353333333333333
+B. ovatus	BHI++	0.393333333333333
+B. stercoris	BHI++	0.383333333333333
+B. thetaiotaomicron	BHI++	0.7245
+B. uniformis	BHI++	0.2125
+B. uniformis HM-715	BHI++	0.304
+B. uniformis HM-716	BHI++	0.219
+B. vulgatus	BHI++	0.906166666666667
+B. vulgatus HM-720	BHI++	0.353666666666667
+B. wadsworthia	BHI++	0.0
+B. xylanisolvens	BHI++	0.602333333333333
+C. aerofaciens	BHI++	0.0
+C. bolteae	BHI++	0.769333333333333
+C. catus	BHI++	0.0
+C. comes	BHI++	0.6525
+C. leptum	BHI++	0.0
+C. perfringens C36	BHI++	0.7928
+C. perfringens S107	BHI++	0.937
+C. ramosum	BHI++	0.586
+C. saccharolyticum	BHI++	0.6308
+D. formicigenerans	BHI++	0.286333333333333
+D. piger	BHI++	0.28875
+E. coli CFT073	BHI++	1.04
+E. coli E2348/69	BHI++	0.757333333333333
+E. coli ED1a	BHI++	1.02483333333333
+E. coli H10407	BHI++	0.75175
+E. coli HM605	BHI++	1.04716666666667
+E. coli IAI1	BHI++	1.0035
+E. coli UTI89	BHI++	0.8061
+E. eligens	BHI++	0.250666666666667
+E. lenta	BHI++	0.0
+E. limosum	BHI++	0.519666666666667
+E. rectale	BHI++	0.0
+E. siraeum	BHI++	0.0
+F. nucleatum subsp. animalis	BHI++	0.2125
+F. nucleatum subsp. nucleatum	BHI++	0.56125
+F. nucleatum subsp. vincentii	BHI++	0.261333333333333
+H. parainfluenzae	BHI++	0.882
+L. acidophilus	BHI++	0.0
+L. delbrueckii subsp. delbrueckii	BHI++	0.0
+L. fermentum	BHI++	0.168666666666667
+L. gasseri	BHI++	0.0
+L. lactis	BHI++	0.893
+L. paracasei	BHI++	0.920166666666667
+L. plantarum	BHI++	0.458666666666667
+L. ruminis	BHI++	0.180666666666667
+L. sakei subsp. sakei	BHI++	0.234333333333333
+L. salivarius	BHI++	0.393333333333333
+L. vaginalis	BHI++	0.325666666666667
+O. splanchnicus	BHI++	0.0
+P. capillosus	BHI++	0.360333333333333
+P. copri	BHI++	0.2825
+C. difficile	BHI++	0.296333333333333
+P. distasonis	BHI++	0.209
+P. melaninogenica	BHI++	0.0
+P. merdae	BHI++	0.271
+R. bromii	BHI++	0.0
+R. gnavus	BHI++	0.361
+R. hominis	BHI++	0.0
+R. intestinalis	BHI++	0.2095
+R. torques	BHI++	0.0
+S. flexneri	BHI++	0.866166666666667
+S. parasanguinis	BHI++	0.428333333333333
+S. salivarius	BHI++	1.17366666666667
+S. sonnei	BHI++	0.838166666666667
+S. typhimurium ATCC14028	BHI++	1.0495
+S. typhimurium LT2	BHI++	0.3735
+V. cholerae A1552	BHI++	0.2665
+V. cholerae N16961	BHI++	0.2995
+V. parvula	BHI++	0.167666666666667
+Y. pseudotuberculosis	BHI++	0.0
+A. muciniphila	WCA	0.0
+A. odontolyticus	WCA	0.786416666666667
+A. putredinis	WCA	0.0
+A. shahii	WCA	0.0
+B. adolescentis	WCA	0.87775
+B. animalis subsp. lactis BI-07	WCA	1.14716666666667
+B. animalis subsp. lactis BL-04	WCA	0.7375
+B. caccae	WCA	0.348333333333333
+B. clarus	WCA	0.693666666666667
+B. coprocola	WCA	0.201
+B. crossotus	WCA	0.0
+B. dorei	WCA	0.241666666666667
+B. eggerthii	WCA	0.306666666666667
+B. fragilis	WCA	0.883666666666667
+B. fragilis enterotoxigenic	WCA	0.629416666666667
+B. fragilis HM-20	WCA	0.383333333333333
+B. fragilis HM-709	WCA	0.429666666666667
+B. fragilis HM-710	WCA	0.415333333333333
+B. fragilis HM-711	WCA	0.355333333333333
+B. fragilis HM-712	WCA	0.360333333333333
+B. fragilis HM-713	WCA	0.375666666666667
+B. fragilis HM-714	WCA	0.356
+B. hansenii	WCA	0.5305
+B. longum subsp. infantis	WCA	0.588333333333333
+B. longum subsp. longum	WCA	0.428666666666667
+B. obeum	WCA	0.353666666666667
+B. ovatus	WCA	0.356666666666667
+B. stercoris	WCA	0.355333333333333
+B. thetaiotaomicron	WCA	0.6565
+B. uniformis	WCA	0.18225
+B. uniformis HM-715	WCA	0.269
+B. uniformis HM-716	WCA	0.2105
+B. vulgatus	WCA	1.033
+B. vulgatus HM-720	WCA	0.309666666666667
+B. wadsworthia	WCA	0.0
+B. xylanisolvens	WCA	0.728
+C. aerofaciens	WCA	0.434
+C. bolteae	WCA	0.791
+C. catus	WCA	0.0
+C. comes	WCA	0.4041
+C. leptum	WCA	0.0
+C. perfringens C36	WCA	0.864
+C. perfringens S107	WCA	1.10566666666667
+C. ramosum	WCA	0.759166666666667
+C. saccharolyticum	WCA	0.5263
+D. formicigenerans	WCA	0.246666666666667
+D. piger	WCA	0.250833333333333
+E. coli CFT073	WCA	1.06466666666667
+E. coli E2348/69	WCA	0.913833333333333
+E. coli ED1a	WCA	1.008
+E. coli H10407	WCA	0.9175
+E. coli HM605	WCA	1.076
+E. coli IAI1	WCA	1.0955
+E. coli UTI89	WCA	0.8409
+E. eligens	WCA	0.250333333333333
+E. lenta	WCA	0.0
+E. limosum	WCA	0.412666666666667
+E. rectale	WCA	0.0
+E. siraeum	WCA	0.0
+F. nucleatum subsp. animalis	WCA	0.325
+F. nucleatum subsp. nucleatum	WCA	0.278125
+F. nucleatum subsp. vincentii	WCA	0.180666666666667
+H. parainfluenzae	WCA	0.0
+L. acidophilus	WCA	0.0
+L. delbrueckii subsp. delbrueckii	WCA	0.0
+L. fermentum	WCA	0.304333333333333
+L. gasseri	WCA	0.315
+L. lactis	WCA	0.8015
+L. paracasei	WCA	0.644
+L. plantarum	WCA	0.6745
+L. ruminis	WCA	0.182666666666667
+L. sakei subsp. sakei	WCA	0.230333333333333
+L. salivarius	WCA	0.528666666666667
+L. vaginalis	WCA	0.365333333333333
+O. splanchnicus	WCA	0.492
+P. capillosus	WCA	0.235
+P. copri	WCA	0.57175
+C. difficile	WCA	0.712666666666667
+P. distasonis	WCA	0.196
+P. melaninogenica	WCA	0.2
+P. merdae	WCA	0.210333333333333
+R. bromii	WCA	0.0
+R. gnavus	WCA	0.1455
+R. hominis	WCA	0.0
+R. intestinalis	WCA	0.243
+R. torques	WCA	0.0
+S. flexneri	WCA	0.625333333333333
+S. parasanguinis	WCA	0.373333333333333
+S. salivarius	WCA	1.126
+S. sonnei	WCA	0.525333333333333
+S. typhimurium ATCC14028	WCA	0.948333333333333
+S. typhimurium LT2	WCA	0.383833333333333
+V. cholerae A1552	WCA	0.207166666666667
+V. cholerae N16961	WCA	0.298166666666667
+V. parvula	WCA	0.0
+Y. pseudotuberculosis	WCA	0.129625
+A. muciniphila	mGAM	0.0
+A. odontolyticus	mGAM	0.389583333333333
+A. putredinis	mGAM	0.0
+A. shahii	mGAM	0.0
+B. adolescentis	mGAM	0.54875
+B. animalis subsp. lactis BI-07	mGAM	0.703333333333333
+B. animalis subsp. lactis BL-04	mGAM	0.42075
+B. caccae	mGAM	0.411
+B. clarus	mGAM	0.967333333333333
+B. coprocola	mGAM	0.721666666666667
+B. crossotus	mGAM	0.486166666666667
+B. dorei	mGAM	0.749666666666667
+B. eggerthii	mGAM	0.837666666666667
+B. fragilis	mGAM	1.48766666666667
+B. fragilis enterotoxigenic	mGAM	1.33691666666667
+B. fragilis HM-20	mGAM	1.172
+B. fragilis HM-709	mGAM	1.19733333333333
+B. fragilis HM-710	mGAM	1.218
+B. fragilis HM-711	mGAM	1.153
+B. fragilis HM-712	mGAM	1.15233333333333
+B. fragilis HM-713	mGAM	1.14666666666667
+B. fragilis HM-714	mGAM	1.13166666666667
+B. hansenii	mGAM	0.763
+B. longum subsp. infantis	mGAM	0.0
+B. longum subsp. longum	mGAM	0.249666666666667
+B. obeum	mGAM	0.239
+B. ovatus	mGAM	0.833333333333333
+B. stercoris	mGAM	0.906333333333333
+B. thetaiotaomicron	mGAM	1.259
+B. uniformis	mGAM	1.21183333333333
+B. uniformis HM-715	mGAM	0.781666666666667
+B. uniformis HM-716	mGAM	0.819
+B. vulgatus	mGAM	1.0955
+B. vulgatus HM-720	mGAM	0.702
+B. wadsworthia	mGAM	0.0
+B. xylanisolvens	mGAM	0.950333333333333
+C. aerofaciens	mGAM	0.283
+C. bolteae	mGAM	0.695666666666667
+C. catus	mGAM	0.0
+C. comes	mGAM	0.5855
+C. leptum	mGAM	0.0
+C. perfringens C36	mGAM	1.2172
+C. perfringens S107	mGAM	1.31266666666667
+C. ramosum	mGAM	0.6835
+C. saccharolyticum	mGAM	0.3129
+D. formicigenerans	mGAM	0.175666666666667
+D. piger	mGAM	0.160666666666667
+E. coli CFT073	mGAM	0.831333333333333
+E. coli E2348/69	mGAM	0.517833333333333
+E. coli ED1a	mGAM	0.749333333333333
+E. coli H10407	mGAM	0.530333333333333
+E. coli HM605	mGAM	0.846833333333333
+E. coli IAI1	mGAM	0.816
+E. coli UTI89	mGAM	0.5745
+E. eligens	mGAM	0.0
+E. lenta	mGAM	0.0
+E. limosum	mGAM	0.230333333333333
+E. rectale	mGAM	0.5778
+E. siraeum	mGAM	0.2385
+F. nucleatum subsp. animalis	mGAM	0.3335
+F. nucleatum subsp. nucleatum	mGAM	0.7472
+F. nucleatum subsp. vincentii	mGAM	0.0
+H. parainfluenzae	mGAM	0.0
+L. acidophilus	mGAM	0.0
+L. delbrueckii subsp. delbrueckii	mGAM	0.0
+L. fermentum	mGAM	0.0
+L. gasseri	mGAM	0.7535
+L. lactis	mGAM	0.260666666666667
+L. paracasei	mGAM	0.1635
+L. plantarum	mGAM	0.303833333333333
+L. ruminis	mGAM	0.0
+L. sakei subsp. sakei	mGAM	0.0
+L. salivarius	mGAM	0.173
+L. vaginalis	mGAM	0.0
+O. splanchnicus	mGAM	0.696333333333333
+P. capillosus	mGAM	0.0
+P. copri	mGAM	1.1925
+C. difficile	mGAM	0.428666666666667
+P. distasonis	mGAM	0.504333333333333
+P. melaninogenica	mGAM	1.0838
+P. merdae	mGAM	0.643333333333333
+R. bromii	mGAM	0.5214
+R. gnavus	mGAM	0.5895
+R. hominis	mGAM	0.0
+R. intestinalis	mGAM	0.524333333333333
+R. torques	mGAM	0.0
+S. flexneri	mGAM	0.618666666666667
+S. parasanguinis	mGAM	0.387666666666667
+S. salivarius	mGAM	0.436333333333333
+S. sonnei	mGAM	0.691666666666667
+S. typhimurium ATCC14028	mGAM	0.787833333333333
+S. typhimurium LT2	mGAM	0.298666666666667
+V. cholerae A1552	mGAM	0.219375
+V. cholerae N16961	mGAM	0.325833333333333
+V. parvula	mGAM	0.0
+Y. pseudotuberculosis	mGAM	0.0
+A. muciniphila	M1	0.0
+A. odontolyticus	M1	0.0
+A. putredinis	M1	0.0
+A. shahii	M1	0.0
+B. adolescentis	M1	0.0
+B. animalis subsp. lactis BI-07	M1	0.0
+B. animalis subsp. lactis BL-04	M1	0.0
+B. caccae	M1	0.0
+B. clarus	M1	0.0
+B. coprocola	M1	0.0
+B. crossotus	M1	0.0
+B. dorei	M1	0.0
+B. eggerthii	M1	0.0
+B. fragilis	M1	0.0
+B. fragilis enterotoxigenic	M1	0.0
+B. fragilis HM-20	M1	0.0
+B. fragilis HM-709	M1	0.0
+B. fragilis HM-710	M1	0.0
+B. fragilis HM-711	M1	0.0
+B. fragilis HM-712	M1	0.0
+B. fragilis HM-713	M1	0.0
+B. fragilis HM-714	M1	0.0
+B. hansenii	M1	0.216
+B. longum subsp. infantis	M1	0.27
+B. longum subsp. longum	M1	0.0
+B. obeum	M1	0.0
+B. ovatus	M1	0.0
+B. stercoris	M1	0.0
+B. thetaiotaomicron	M1	0.0
+B. uniformis	M1	0.0
+B. uniformis HM-715	M1	0.0
+B. uniformis HM-716	M1	0.0
+B. vulgatus	M1	0.0
+B. vulgatus HM-720	M1	0.255333333333333
+B. wadsworthia	M1	0.0
+B. xylanisolvens	M1	0.0
+C. aerofaciens	M1	0.0
+C. bolteae	M1	0.0
+C. catus	M1	0.0
+C. comes	M1	0.0
+C. leptum	M1	0.0
+C. perfringens C36	M1	0.0
+C. perfringens S107	M1	0.0
+C. ramosum	M1	0.0
+C. saccharolyticum	M1	0.150666666666667
+D. formicigenerans	M1	0.204
+D. piger	M1	0.0
+E. coli CFT073	M1	0.13375
+E. coli E2348/69	M1	0.17
+E. coli ED1a	M1	0.191666666666667
+E. coli H10407	M1	0.17175
+E. coli HM605	M1	0.231
+E. coli IAI1	M1	0.165
+E. coli UTI89	M1	0.1895
+E. eligens	M1	0.0
+E. lenta	M1	0.0
+E. limosum	M1	0.296
+E. rectale	M1	0.0
+E. siraeum	M1	0.0
+F. nucleatum subsp. animalis	M1	0.0
+F. nucleatum subsp. nucleatum	M1	0.0
+F. nucleatum subsp. vincentii	M1	0.0
+H. parainfluenzae	M1	0.0
+L. acidophilus	M1	0.0
+L. delbrueckii subsp. delbrueckii	M1	0.0
+L. fermentum	M1	0.0
+L. gasseri	M1	0.0
+L. lactis	M1	0.0
+L. paracasei	M1	0.0
+L. plantarum	M1	0.0
+L. ruminis	M1	0.0
+L. sakei subsp. sakei	M1	0.0
+L. salivarius	M1	0.0
+L. vaginalis	M1	0.0
+O. splanchnicus	M1	0.0
+P. capillosus	M1	0.0
+P. copri	M1	0.0
+C. difficile	M1	0.0
+P. distasonis	M1	0.0
+P. melaninogenica	M1	0.0
+P. merdae	M1	0.0
+R. bromii	M1	0.0
+R. gnavus	M1	0.0
+R. hominis	M1	0.0
+R. intestinalis	M1	0.0
+R. torques	M1	0.0
+S. flexneri	M1	0.0
+S. parasanguinis	M1	0.0
+S. salivarius	M1	0.0
+S. sonnei	M1	0.0
+S. typhimurium ATCC14028	M1	0.166666666666667
+S. typhimurium LT2	M1	0.124166666666667
+V. cholerae A1552	M1	0.0
+V. cholerae N16961	M1	0.24
+V. parvula	M1	0.0
+Y. pseudotuberculosis	M1	0.0
+A. muciniphila	M2	0.0
+A. odontolyticus	M2	1.148
+A. putredinis	M2	0.0
+A. shahii	M2	0.0
+B. adolescentis	M2	1.556
+B. animalis subsp. lactis BI-07	M2	0.7677
+B. animalis subsp. lactis BL-04	M2	0.0
+B. caccae	M2	0.264
+B. clarus	M2	0.655333333333333
+B. coprocola	M2	0.0
+B. crossotus	M2	0.0
+B. dorei	M2	0.45
+B. eggerthii	M2	0.0
+B. fragilis	M2	0.269
+B. fragilis enterotoxigenic	M2	0.2635
+B. fragilis HM-20	M2	0.168
+B. fragilis HM-709	M2	0.219
+B. fragilis HM-710	M2	0.210666666666667
+B. fragilis HM-711	M2	0.317
+B. fragilis HM-712	M2	0.296
+B. fragilis HM-713	M2	0.231666666666667
+B. fragilis HM-714	M2	0.201
+B. hansenii	M2	0.789166666666667
+B. longum subsp. infantis	M2	1.562
+B. longum subsp. longum	M2	0.706625
+B. obeum	M2	0.876666666666667
+B. ovatus	M2	0.406666666666667
+B. stercoris	M2	0.0
+B. thetaiotaomicron	M2	0.194
+B. uniformis	M2	0.0
+B. uniformis HM-715	M2	0.0
+B. uniformis HM-716	M2	0.0
+B. vulgatus	M2	0.97
+B. vulgatus HM-720	M2	0.615333333333333
+B. wadsworthia	M2	0.0
+B. xylanisolvens	M2	0.257
+C. aerofaciens	M2	0.2295
+C. bolteae	M2	0.0
+C. catus	M2	0.0
+C. comes	M2	1.40128571428571
+C. leptum	M2	0.0
+C. perfringens C36	M2	1.20433333333333
+C. perfringens S107	M2	1.07433333333333
+C. ramosum	M2	0.6797
+C. saccharolyticum	M2	1.26883333333333
+D. formicigenerans	M2	0.605666666666667
+D. piger	M2	0.0
+E. coli CFT073	M2	0.469666666666667
+E. coli E2348/69	M2	0.414166666666667
+E. coli ED1a	M2	0.507333333333333
+E. coli H10407	M2	0.424666666666667
+E. coli HM605	M2	0.476833333333333
+E. coli IAI1	M2	0.516333333333333
+E. coli UTI89	M2	0.545125
+E. eligens	M2	1.13133333333333
+E. lenta	M2	0.0
+E. limosum	M2	0.0
+E. rectale	M2	0.0
+E. siraeum	M2	0.0
+F. nucleatum subsp. animalis	M2	0.0
+F. nucleatum subsp. nucleatum	M2	0.365
+F. nucleatum subsp. vincentii	M2	0.169
+H. parainfluenzae	M2	0.0
+L. acidophilus	M2	0.0
+L. delbrueckii subsp. delbrueckii	M2	0.0
+L. fermentum	M2	0.3845
+L. gasseri	M2	0.0
+L. lactis	M2	0.7465
+L. paracasei	M2	0.663166666666667
+L. plantarum	M2	1.09225
+L. ruminis	M2	0.727
+L. sakei subsp. sakei	M2	0.474333333333333
+L. salivarius	M2	0.609333333333333
+L. vaginalis	M2	0.0
+O. splanchnicus	M2	0.0
+P. capillosus	M2	0.0
+P. copri	M2	0.0
+C. difficile	M2	0.766833333333333
+P. distasonis	M2	0.0
+P. melaninogenica	M2	0.0
+P. merdae	M2	0.0
+R. bromii	M2	0.0
+R. gnavus	M2	0.6605
+R. hominis	M2	0.0
+R. intestinalis	M2	0.469333333333333
+R. torques	M2	0.0
+S. flexneri	M2	0.6695
+S. parasanguinis	M2	1.43366666666667
+S. salivarius	M2	1.1192
+S. sonnei	M2	0.373833333333333
+S. typhimurium ATCC14028	M2	0.538666666666667
+S. typhimurium LT2	M2	0.412333333333333
+V. cholerae A1552	M2	0.5708
+V. cholerae N16961	M2	0.494333333333333
+V. parvula	M2	0.0
+Y. pseudotuberculosis	M2	0.6632
+A. muciniphila	M3	0.0
+A. odontolyticus	M3	1.19933333333333
+A. putredinis	M3	0.0
+A. shahii	M3	0.0
+B. adolescentis	M3	0.741
+B. animalis subsp. lactis BI-07	M3	0.489666666666667
+B. animalis subsp. lactis BL-04	M3	0.0
+B. caccae	M3	0.0
+B. clarus	M3	0.0
+B. coprocola	M3	0.0
+B. crossotus	M3	0.0
+B. dorei	M3	0.914666666666667
+B. eggerthii	M3	0.0
+B. fragilis	M3	0.52775
+B. fragilis enterotoxigenic	M3	0.6465
+B. fragilis HM-20	M3	0.0
+B. fragilis HM-709	M3	0.545
+B. fragilis HM-710	M3	0.660333333333333
+B. fragilis HM-711	M3	0.471
+B. fragilis HM-712	M3	0.598
+B. fragilis HM-713	M3	0.896
+B. fragilis HM-714	M3	0.477666666666667
+B. hansenii	M3	0.711333333333333
+B. longum subsp. infantis	M3	1.2565
+B. longum subsp. longum	M3	0.0
+B. obeum	M3	0.0
+B. ovatus	M3	0.0
+B. stercoris	M3	0.0
+B. thetaiotaomicron	M3	0.453
+B. uniformis	M3	0.0
+B. uniformis HM-715	M3	0.0
+B. uniformis HM-716	M3	0.0
+B. vulgatus	M3	0.835
+B. vulgatus HM-720	M3	0.819666666666667
+B. wadsworthia	M3	0.0
+B. xylanisolvens	M3	0.387666666666667
+C. aerofaciens	M3	0.341
+C. bolteae	M3	0.0
+C. catus	M3	0.0
+C. comes	M3	1.1235
+C. leptum	M3	0.0
+C. perfringens C36	M3	1.4145
+C. perfringens S107	M3	0.682
+C. ramosum	M3	0.58325
+C. saccharolyticum	M3	0.5758
+D. formicigenerans	M3	1.21466666666667
+D. piger	M3	0.0
+E. coli CFT073	M3	0.343
+E. coli E2348/69	M3	0.584333333333333
+E. coli ED1a	M3	0.738
+E. coli H10407	M3	0.566
+E. coli HM605	M3	0.6035
+E. coli IAI1	M3	0.6425
+E. coli UTI89	M3	0.6132
+E. eligens	M3	0.930333333333333
+E. lenta	M3	0.0
+E. limosum	M3	1.033
+E. rectale	M3	0.0
+E. siraeum	M3	0.0
+F. nucleatum subsp. animalis	M3	0.0
+F. nucleatum subsp. nucleatum	M3	0.0
+F. nucleatum subsp. vincentii	M3	0.0
+H. parainfluenzae	M3	0.0
+L. acidophilus	M3	0.0
+L. delbrueckii subsp. delbrueckii	M3	0.0
+L. fermentum	M3	0.427333333333333
+L. gasseri	M3	0.0
+L. lactis	M3	0.835
+L. paracasei	M3	0.701
+L. plantarum	M3	0.858
+L. ruminis	M3	0.549
+L. sakei subsp. sakei	M3	0.271333333333333
+L. salivarius	M3	0.538333333333333
+L. vaginalis	M3	0.4155
+O. splanchnicus	M3	0.0
+P. capillosus	M3	0.0
+P. copri	M3	0.0
+C. difficile	M3	0.311
+P. distasonis	M3	0.684
+P. melaninogenica	M3	0.0
+P. merdae	M3	0.204
+R. bromii	M3	0.0
+R. gnavus	M3	0.7635
+R. hominis	M3	0.0
+R. intestinalis	M3	0.201
+R. torques	M3	0.0
+S. flexneri	M3	0.534166666666667
+S. parasanguinis	M3	0.971
+S. salivarius	M3	0.982833333333333
+S. sonnei	M3	0.500166666666667
+S. typhimurium ATCC14028	M3	0.847833333333333
+S. typhimurium LT2	M3	0.586666666666667
+V. cholerae A1552	M3	0.3232
+V. cholerae N16961	M3	0.3525
+V. parvula	M3	0.0
+Y. pseudotuberculosis	M3	0.0
+A. muciniphila	M4	0.0
+A. odontolyticus	M4	0.66825
+A. putredinis	M4	0.0
+A. shahii	M4	0.0
+B. adolescentis	M4	0.472833333333333
+B. animalis subsp. lactis BI-07	M4	0.577666666666667
+B. animalis subsp. lactis BL-04	M4	0.0
+B. caccae	M4	0.0
+B. clarus	M4	0.0
+B. coprocola	M4	0.0
+B. crossotus	M4	0.0
+B. dorei	M4	0.928333333333333
+B. eggerthii	M4	0.0
+B. fragilis	M4	0.7475
+B. fragilis enterotoxigenic	M4	0.65925
+B. fragilis HM-20	M4	0.0
+B. fragilis HM-709	M4	0.524
+B. fragilis HM-710	M4	0.422
+B. fragilis HM-711	M4	0.527
+B. fragilis HM-712	M4	0.68
+B. fragilis HM-713	M4	0.532333333333333
+B. fragilis HM-714	M4	0.735
+B. hansenii	M4	0.890833333333333
+B. longum subsp. infantis	M4	1.506
+B. longum subsp. longum	M4	0.0
+B. obeum	M4	0.0
+B. ovatus	M4	0.0
+B. stercoris	M4	0.0
+B. thetaiotaomicron	M4	0.435
+B. uniformis	M4	0.529
+B. uniformis HM-715	M4	0.0
+B. uniformis HM-716	M4	0.0
+B. vulgatus	M4	0.806666666666667
+B. vulgatus HM-720	M4	1.025
+B. wadsworthia	M4	0.0
+B. xylanisolvens	M4	0.7475
+C. aerofaciens	M4	0.0
+C. bolteae	M4	0.0
+C. catus	M4	0.0
+C. comes	M4	0.798666666666667
+C. leptum	M4	0.0
+C. perfringens C36	M4	0.347333333333333
+C. perfringens S107	M4	0.465333333333333
+C. ramosum	M4	0.18375
+C. saccharolyticum	M4	0.5464
+D. formicigenerans	M4	0.422
+D. piger	M4	0.0
+E. coli CFT073	M4	0.236833333333333
+E. coli E2348/69	M4	0.494333333333333
+E. coli ED1a	M4	0.635666666666667
+E. coli H10407	M4	0.5315
+E. coli HM605	M4	0.5625
+E. coli IAI1	M4	0.563
+E. coli UTI89	M4	0.6596
+E. eligens	M4	0.441
+E. lenta	M4	0.0
+E. limosum	M4	0.611
+E. rectale	M4	0.0
+E. siraeum	M4	0.0
+F. nucleatum subsp. animalis	M4	0.0
+F. nucleatum subsp. nucleatum	M4	0.0
+F. nucleatum subsp. vincentii	M4	0.0
+H. parainfluenzae	M4	0.283833333333333
+L. acidophilus	M4	0.0
+L. delbrueckii subsp. delbrueckii	M4	0.0
+L. fermentum	M4	0.0
+L. gasseri	M4	0.0
+L. lactis	M4	0.4755
+L. paracasei	M4	0.4365
+L. plantarum	M4	0.949166666666667
+L. ruminis	M4	0.0
+L. sakei subsp. sakei	M4	0.0
+L. salivarius	M4	0.583
+L. vaginalis	M4	0.0
+O. splanchnicus	M4	0.0
+P. capillosus	M4	0.0
+P. copri	M4	0.81975
+C. difficile	M4	0.267
+P. distasonis	M4	0.732
+P. melaninogenica	M4	0.0
+P. merdae	M4	0.0
+R. bromii	M4	0.0
+R. gnavus	M4	0.50625
+R. hominis	M4	0.0
+R. intestinalis	M4	0.0
+R. torques	M4	0.0
+S. flexneri	M4	0.389166666666667
+S. parasanguinis	M4	0.972
+S. salivarius	M4	0.727666666666667
+S. sonnei	M4	0.342166666666667
+S. typhimurium ATCC14028	M4	0.6405
+S. typhimurium LT2	M4	0.475833333333333
+V. cholerae A1552	M4	0.223333333333333
+V. cholerae N16961	M4	0.301166666666667
+V. parvula	M4	0.0
+Y. pseudotuberculosis	M4	0.0
+A. muciniphila	M5	0.0
+A. odontolyticus	M5	1.315
+A. putredinis	M5	0.0
+A. shahii	M5	0.0
+B. adolescentis	M5	0.968666666666667
+B. animalis subsp. lactis BI-07	M5	0.63775
+B. animalis subsp. lactis BL-04	M5	0.0
+B. caccae	M5	0.8045
+B. clarus	M5	0.9845
+B. coprocola	M5	0.0
+B. crossotus	M5	0.0
+B. dorei	M5	0.919
+B. eggerthii	M5	0.837
+B. fragilis	M5	0.7555
+B. fragilis enterotoxigenic	M5	0.779
+B. fragilis HM-20	M5	0.582333333333333
+B. fragilis HM-709	M5	0.614666666666667
+B. fragilis HM-710	M5	0.638
+B. fragilis HM-711	M5	0.697
+B. fragilis HM-712	M5	0.768
+B. fragilis HM-713	M5	0.644666666666667
+B. fragilis HM-714	M5	0.591
+B. hansenii	M5	1.28983333333333
+B. longum subsp. infantis	M5	1.176
+B. longum subsp. longum	M5	0.0
+B. obeum	M5	0.987666666666667
+B. ovatus	M5	0.898333333333333
+B. stercoris	M5	0.599
+B. thetaiotaomicron	M5	0.5635
+B. uniformis	M5	0.6825
+B. uniformis HM-715	M5	0.396333333333333
+B. uniformis HM-716	M5	0.435
+B. vulgatus	M5	0.8655
+B. vulgatus HM-720	M5	0.919333333333333
+B. wadsworthia	M5	0.0
+B. xylanisolvens	M5	0.969666666666667
+C. aerofaciens	M5	0.392
+C. bolteae	M5	0.0
+C. catus	M5	0.0
+C. comes	M5	1.06625
+C. leptum	M5	0.0
+C. perfringens C36	M5	1.299
+C. perfringens S107	M5	0.901666666666667
+C. ramosum	M5	0.966333333333333
+C. saccharolyticum	M5	1.1364
+D. formicigenerans	M5	1.02266666666667
+D. piger	M5	0.0
+E. coli CFT073	M5	0.782666666666667
+E. coli E2348/69	M5	0.7175
+E. coli ED1a	M5	0.843
+E. coli H10407	M5	0.737833333333333
+E. coli HM605	M5	0.829333333333333
+E. coli IAI1	M5	0.901833333333333
+E. coli UTI89	M5	0.8447
+E. eligens	M5	0.963333333333333
+E. lenta	M5	0.0
+E. limosum	M5	0.861
+E. rectale	M5	0.0
+E. siraeum	M5	0.0
+F. nucleatum subsp. animalis	M5	0.0
+F. nucleatum subsp. nucleatum	M5	0.3485
+F. nucleatum subsp. vincentii	M5	0.0
+H. parainfluenzae	M5	0.0
+L. acidophilus	M5	0.0
+L. delbrueckii subsp. delbrueckii	M5	0.0
+L. fermentum	M5	0.374
+L. gasseri	M5	0.0
+L. lactis	M5	0.8
+L. paracasei	M5	0.704666666666667
+L. plantarum	M5	0.975833333333333
+L. ruminis	M5	0.59
+L. sakei subsp. sakei	M5	0.423333333333333
+L. salivarius	M5	0.502
+L. vaginalis	M5	0.0
+O. splanchnicus	M5	0.0
+P. capillosus	M5	0.0
+P. copri	M5	0.0
+C. difficile	M5	0.374666666666667
+P. distasonis	M5	0.704
+P. melaninogenica	M5	0.0
+P. merdae	M5	0.609
+R. bromii	M5	0.0
+R. gnavus	M5	0.84825
+R. hominis	M5	0.0
+R. intestinalis	M5	0.679
+R. torques	M5	0.0
+S. flexneri	M5	0.779666666666667
+S. parasanguinis	M5	0.999666666666667
+S. salivarius	M5	0.896666666666667
+S. sonnei	M5	0.581833333333333
+S. typhimurium ATCC14028	M5	0.846
+S. typhimurium LT2	M5	0.661666666666667
+V. cholerae A1552	M5	0.46
+V. cholerae N16961	M5	0.452333333333333
+V. parvula	M5	0.0
+Y. pseudotuberculosis	M5	0.284166666666667
+A. muciniphila	M7	0.0
+A. odontolyticus	M7	1.1725
+A. putredinis	M7	0.0
+A. shahii	M7	0.0
+B. adolescentis	M7	1.144
+B. animalis subsp. lactis BI-07	M7	0.412666666666667
+B. animalis subsp. lactis BL-04	M7	0.0
+B. caccae	M7	0.504
+B. clarus	M7	0.2025
+B. coprocola	M7	0.0
+B. crossotus	M7	0.0
+B. dorei	M7	0.537
+B. eggerthii	M7	0.0
+B. fragilis	M7	0.627
+B. fragilis enterotoxigenic	M7	0.675333333333333
+B. fragilis HM-20	M7	0.0
+B. fragilis HM-709	M7	0.495666666666667
+B. fragilis HM-710	M7	0.581
+B. fragilis HM-711	M7	0.632
+B. fragilis HM-712	M7	0.717
+B. fragilis HM-713	M7	0.441
+B. fragilis HM-714	M7	0.471
+B. hansenii	M7	0.4595
+B. longum subsp. infantis	M7	0.0
+B. longum subsp. longum	M7	0.0
+B. obeum	M7	0.0
+B. ovatus	M7	0.0
+B. stercoris	M7	0.0
+B. thetaiotaomicron	M7	0.17375
+B. uniformis	M7	0.0
+B. uniformis HM-715	M7	0.0
+B. uniformis HM-716	M7	0.0
+B. vulgatus	M7	0.6385
+B. vulgatus HM-720	M7	0.373
+B. wadsworthia	M7	0.0
+B. xylanisolvens	M7	0.423666666666667
+C. aerofaciens	M7	0.348
+C. bolteae	M7	0.0
+C. catus	M7	0.0
+C. comes	M7	0.98125
+C. leptum	M7	0.0
+C. perfringens C36	M7	0.938666666666667
+C. perfringens S107	M7	0.625666666666667
+C. ramosum	M7	0.695
+C. saccharolyticum	M7	0.5182
+D. formicigenerans	M7	1.35066666666667
+D. piger	M7	0.0
+E. coli CFT073	M7	0.3075
+E. coli E2348/69	M7	0.5195
+E. coli ED1a	M7	0.659666666666667
+E. coli H10407	M7	0.572166666666667
+E. coli HM605	M7	0.547833333333333
+E. coli IAI1	M7	0.611833333333333
+E. coli UTI89	M7	0.622
+E. eligens	M7	0.706666666666667
+E. lenta	M7	0.0
+E. limosum	M7	0.918
+E. rectale	M7	0.0
+E. siraeum	M7	0.0
+F. nucleatum subsp. animalis	M7	0.0
+F. nucleatum subsp. nucleatum	M7	0.0
+F. nucleatum subsp. vincentii	M7	0.0
+H. parainfluenzae	M7	0.0
+L. acidophilus	M7	0.0
+L. delbrueckii subsp. delbrueckii	M7	0.0
+L. fermentum	M7	0.262
+L. gasseri	M7	0.0
+L. lactis	M7	0.603666666666667
+L. paracasei	M7	0.551
+L. plantarum	M7	0.647
+L. ruminis	M7	0.195
+L. sakei subsp. sakei	M7	0.226333333333333
+L. salivarius	M7	0.417333333333333
+L. vaginalis	M7	0.248
+O. splanchnicus	M7	0.0
+P. capillosus	M7	0.0
+P. copri	M7	0.0
+C. difficile	M7	0.362666666666667
+P. distasonis	M7	0.662
+P. melaninogenica	M7	0.0
+P. merdae	M7	0.0
+R. bromii	M7	0.0
+R. gnavus	M7	0.669125
+R. hominis	M7	0.0
+R. intestinalis	M7	0.0
+R. torques	M7	0.0
+S. flexneri	M7	0.503
+S. parasanguinis	M7	0.976
+S. salivarius	M7	0.707833333333333
+S. sonnei	M7	0.469
+S. typhimurium ATCC14028	M7	1.00066666666667
+S. typhimurium LT2	M7	0.593333333333333
+V. cholerae A1552	M7	0.3388
+V. cholerae N16961	M7	0.379
+V. parvula	M7	0.0
+Y. pseudotuberculosis	M7	0.1505
+A. muciniphila	M8	0.525
+A. odontolyticus	M8	1.46433333333333
+A. putredinis	M8	0.0
+A. shahii	M8	0.0
+B. adolescentis	M8	1.20166666666667
+B. animalis subsp. lactis BI-07	M8	0.458666666666667
+B. animalis subsp. lactis BL-04	M8	0.0
+B. caccae	M8	0.48
+B. clarus	M8	0.7565
+B. coprocola	M8	0.0
+B. crossotus	M8	0.0
+B. dorei	M8	0.881333333333333
+B. eggerthii	M8	0.0
+B. fragilis	M8	0.914166666666667
+B. fragilis enterotoxigenic	M8	0.8565
+B. fragilis HM-20	M8	1.182
+B. fragilis HM-709	M8	0.899
+B. fragilis HM-710	M8	0.887
+B. fragilis HM-711	M8	0.95
+B. fragilis HM-712	M8	1.298
+B. fragilis HM-713	M8	0.93125
+B. fragilis HM-714	M8	0.800666666666667
+B. hansenii	M8	0.49
+B. longum subsp. infantis	M8	1.478
+B. longum subsp. longum	M8	0.2875
+B. obeum	M8	0.0
+B. ovatus	M8	0.6345
+B. stercoris	M8	1.03275
+B. thetaiotaomicron	M8	0.893
+B. uniformis	M8	0.0
+B. uniformis HM-715	M8	0.0
+B. uniformis HM-716	M8	0.414
+B. vulgatus	M8	0.7705
+B. vulgatus HM-720	M8	0.999333333333333
+B. wadsworthia	M8	0.0
+B. xylanisolvens	M8	1.27566666666667
+C. aerofaciens	M8	1.377
+C. bolteae	M8	0.260166666666667
+C. catus	M8	0.0
+C. comes	M8	0.8957
+C. leptum	M8	0.0
+C. perfringens C36	M8	0.983333333333333
+C. perfringens S107	M8	0.6815
+C. ramosum	M8	0.936
+C. saccharolyticum	M8	0.86175
+D. formicigenerans	M8	1.487
+D. piger	M8	0.0
+E. coli CFT073	M8	0.450333333333333
+E. coli E2348/69	M8	0.541
+E. coli ED1a	M8	0.767833333333333
+E. coli H10407	M8	0.549666666666667
+E. coli HM605	M8	0.5705
+E. coli IAI1	M8	0.599333333333333
+E. coli UTI89	M8	0.5881
+E. eligens	M8	0.836666666666667
+E. lenta	M8	0.0
+E. limosum	M8	0.852333333333333
+E. rectale	M8	0.0
+E. siraeum	M8	0.0
+F. nucleatum subsp. animalis	M8	0.0
+F. nucleatum subsp. nucleatum	M8	0.0
+F. nucleatum subsp. vincentii	M8	0.0
+H. parainfluenzae	M8	0.0
+L. acidophilus	M8	0.0
+L. delbrueckii subsp. delbrueckii	M8	0.0
+L. fermentum	M8	0.476
+L. gasseri	M8	0.0
+L. lactis	M8	0.533666666666667
+L. paracasei	M8	0.722333333333333
+L. plantarum	M8	0.764833333333333
+L. ruminis	M8	0.56
+L. sakei subsp. sakei	M8	0.323666666666667
+L. salivarius	M8	0.461666666666667
+L. vaginalis	M8	0.459
+O. splanchnicus	M8	0.0
+P. capillosus	M8	0.2775
+P. copri	M8	0.0
+C. difficile	M8	0.326833333333333
+P. distasonis	M8	0.766
+P. melaninogenica	M8	0.0
+P. merdae	M8	0.491333333333333
+R. bromii	M8	0.0
+R. gnavus	M8	0.733333333333333
+R. hominis	M8	1.40766666666667
+R. intestinalis	M8	0.5255
+R. torques	M8	0.819
+S. flexneri	M8	0.478166666666667
+S. parasanguinis	M8	1.01466666666667
+S. salivarius	M8	0.7475
+S. sonnei	M8	0.448
+S. typhimurium ATCC14028	M8	0.8195
+S. typhimurium LT2	M8	0.6115
+V. cholerae A1552	M8	0.268
+V. cholerae N16961	M8	0.452666666666667
+V. parvula	M8	0.0
+Y. pseudotuberculosis	M8	0.0
+A. muciniphila	M9	0.382
+A. odontolyticus	M9	0.0
+A. putredinis	M9	0.0
+A. shahii	M9	0.0
+B. adolescentis	M9	0.0
+B. animalis subsp. lactis BI-07	M9	0.0
+B. animalis subsp. lactis BL-04	M9	0.0
+B. caccae	M9	0.0
+B. clarus	M9	0.0
+B. coprocola	M9	0.0
+B. crossotus	M9	0.0
+B. dorei	M9	0.0
+B. eggerthii	M9	0.0
+B. fragilis	M9	0.0
+B. fragilis enterotoxigenic	M9	0.0
+B. fragilis HM-20	M9	0.0
+B. fragilis HM-709	M9	0.0
+B. fragilis HM-710	M9	0.0
+B. fragilis HM-711	M9	0.0
+B. fragilis HM-712	M9	0.0
+B. fragilis HM-713	M9	0.0
+B. fragilis HM-714	M9	0.0
+B. hansenii	M9	0.130833333333333
+B. longum subsp. infantis	M9	0.0
+B. longum subsp. longum	M9	0.0
+B. obeum	M9	0.0
+B. ovatus	M9	0.0
+B. stercoris	M9	0.0
+B. thetaiotaomicron	M9	0.0
+B. uniformis	M9	0.0
+B. uniformis HM-715	M9	0.0
+B. uniformis HM-716	M9	0.0
+B. vulgatus	M9	0.0
+B. vulgatus HM-720	M9	0.0
+B. wadsworthia	M9	0.0
+B. xylanisolvens	M9	0.0
+C. aerofaciens	M9	0.0
+C. bolteae	M9	0.0
+C. catus	M9	0.0
+C. comes	M9	0.1838
+C. leptum	M9	0.0
+C. perfringens C36	M9	0.0
+C. perfringens S107	M9	0.2125
+C. ramosum	M9	0.0
+C. saccharolyticum	M9	0.0
+D. formicigenerans	M9	0.0
+D. piger	M9	0.0
+E. coli CFT073	M9	0.141166666666667
+E. coli E2348/69	M9	0.114
+E. coli ED1a	M9	0.117
+E. coli H10407	M9	0.13875
+E. coli HM605	M9	0.179333333333333
+E. coli IAI1	M9	0.1275
+E. coli UTI89	M9	0.2023
+E. eligens	M9	0.0
+E. lenta	M9	0.0
+E. limosum	M9	0.0
+E. rectale	M9	0.0
+E. siraeum	M9	0.0
+F. nucleatum subsp. animalis	M9	0.0
+F. nucleatum subsp. nucleatum	M9	0.0
+F. nucleatum subsp. vincentii	M9	0.0
+H. parainfluenzae	M9	0.0
+L. acidophilus	M9	0.0
+L. delbrueckii subsp. delbrueckii	M9	0.0
+L. fermentum	M9	0.0
+L. gasseri	M9	0.0
+L. lactis	M9	0.0
+L. paracasei	M9	0.1325
+L. plantarum	M9	0.0
+L. ruminis	M9	0.0
+L. sakei subsp. sakei	M9	0.0
+L. salivarius	M9	0.0
+L. vaginalis	M9	0.0
+O. splanchnicus	M9	0.0
+P. capillosus	M9	0.0
+P. copri	M9	0.0
+C. difficile	M9	0.142
+P. distasonis	M9	0.0
+P. melaninogenica	M9	0.0
+P. merdae	M9	0.0
+R. bromii	M9	0.0
+R. gnavus	M9	0.0
+R. hominis	M9	0.0
+R. intestinalis	M9	0.0
+R. torques	M9	0.264333333333333
+S. flexneri	M9	0.0
+S. parasanguinis	M9	0.0
+S. salivarius	M9	0.0
+S. sonnei	M9	0.0535
+S. typhimurium ATCC14028	M9	0.173333333333333
+S. typhimurium LT2	M9	0.0
+V. cholerae A1552	M9	0.0
+V. cholerae N16961	M9	0.11725
+V. parvula	M9	0.0
+Y. pseudotuberculosis	M9	0.0
+A. muciniphila	M10	0.0
+A. odontolyticus	M10	0.0
+A. putredinis	M10	0.0
+A. shahii	M10	0.0
+B. adolescentis	M10	0.957333333333333
+B. animalis subsp. lactis BI-07	M10	0.475333333333333
+B. animalis subsp. lactis BL-04	M10	0.0
+B. caccae	M10	0.0
+B. clarus	M10	0.0
+B. coprocola	M10	0.0
+B. crossotus	M10	0.0
+B. dorei	M10	0.0
+B. eggerthii	M10	0.0
+B. fragilis	M10	0.3535
+B. fragilis enterotoxigenic	M10	0.0
+B. fragilis HM-20	M10	0.0
+B. fragilis HM-709	M10	0.0
+B. fragilis HM-710	M10	0.0
+B. fragilis HM-711	M10	0.0
+B. fragilis HM-712	M10	0.147
+B. fragilis HM-713	M10	0.0
+B. fragilis HM-714	M10	0.0
+B. hansenii	M10	0.5625
+B. longum subsp. infantis	M10	1.17266666666667
+B. longum subsp. longum	M10	0.0
+B. obeum	M10	0.780333333333333
+B. ovatus	M10	0.0
+B. stercoris	M10	0.0
+B. thetaiotaomicron	M10	0.143
+B. uniformis	M10	0.636
+B. uniformis HM-715	M10	0.0
+B. uniformis HM-716	M10	0.0
+B. vulgatus	M10	0.535166666666667
+B. vulgatus HM-720	M10	0.0
+B. wadsworthia	M10	0.0
+B. xylanisolvens	M10	0.0
+C. aerofaciens	M10	0.169
+C. bolteae	M10	0.0
+C. catus	M10	0.0
+C. comes	M10	0.2401
+C. leptum	M10	0.0
+C. perfringens C36	M10	0.280666666666667
+C. perfringens S107	M10	0.1385
+C. ramosum	M10	0.913666666666667
+C. saccharolyticum	M10	0.6957
+D. formicigenerans	M10	0.495666666666667
+D. piger	M10	0.0
+E. coli CFT073	M10	0.464666666666667
+E. coli E2348/69	M10	0.526833333333333
+E. coli ED1a	M10	0.806166666666667
+E. coli H10407	M10	0.641833333333333
+E. coli HM605	M10	0.698
+E. coli IAI1	M10	0.767666666666667
+E. coli UTI89	M10	0.6535
+E. eligens	M10	0.908
+E. lenta	M10	0.0
+E. limosum	M10	0.0
+E. rectale	M10	0.0
+E. siraeum	M10	0.0
+F. nucleatum subsp. animalis	M10	0.0
+F. nucleatum subsp. nucleatum	M10	0.0
+F. nucleatum subsp. vincentii	M10	0.0
+H. parainfluenzae	M10	0.0
+L. acidophilus	M10	0.0
+L. delbrueckii subsp. delbrueckii	M10	0.0
+L. fermentum	M10	0.235
+L. gasseri	M10	0.0
+L. lactis	M10	0.511833333333333
+L. paracasei	M10	0.425166666666667
+L. plantarum	M10	0.603166666666667
+L. ruminis	M10	0.0
+L. sakei subsp. sakei	M10	0.0
+L. salivarius	M10	0.441666666666667
+L. vaginalis	M10	0.346
+O. splanchnicus	M10	0.0
+P. capillosus	M10	0.0
+P. copri	M10	0.0
+C. difficile	M10	0.0
+P. distasonis	M10	0.0
+P. melaninogenica	M10	0.0
+P. merdae	M10	0.0
+R. bromii	M10	0.0
+R. gnavus	M10	0.54375
+R. hominis	M10	0.0
+R. intestinalis	M10	0.0
+R. torques	M10	0.0
+S. flexneri	M10	0.405166666666667
+S. parasanguinis	M10	0.655
+S. salivarius	M10	0.846666666666667
+S. sonnei	M10	0.416666666666667
+S. typhimurium ATCC14028	M10	0.8275
+S. typhimurium LT2	M10	0.457833333333333
+V. cholerae A1552	M10	0.3115
+V. cholerae N16961	M10	0.375833333333333
+V. parvula	M10	0.0
+Y. pseudotuberculosis	M10	0.0
+A. muciniphila	M11	0.0
+A. odontolyticus	M11	1.10125
+A. putredinis	M11	0.0
+A. shahii	M11	0.0
+B. adolescentis	M11	1.434
+B. animalis subsp. lactis BI-07	M11	0.393
+B. animalis subsp. lactis BL-04	M11	0.0
+B. caccae	M11	0.0
+B. clarus	M11	0.347
+B. coprocola	M11	0.0
+B. crossotus	M11	0.0
+B. dorei	M11	0.797666666666667
+B. eggerthii	M11	0.0
+B. fragilis	M11	0.62875
+B. fragilis enterotoxigenic	M11	0.626333333333333
+B. fragilis HM-20	M11	0.0
+B. fragilis HM-709	M11	0.576666666666667
+B. fragilis HM-710	M11	0.541333333333333
+B. fragilis HM-711	M11	0.61
+B. fragilis HM-712	M11	0.587
+B. fragilis HM-713	M11	0.458666666666667
+B. fragilis HM-714	M11	0.419
+B. hansenii	M11	0.561
+B. longum subsp. infantis	M11	1.029
+B. longum subsp. longum	M11	0.0
+B. obeum	M11	0.0
+B. ovatus	M11	0.367
+B. stercoris	M11	0.597
+B. thetaiotaomicron	M11	0.695
+B. uniformis	M11	0.0
+B. uniformis HM-715	M11	0.0
+B. uniformis HM-716	M11	0.0
+B. vulgatus	M11	0.577
+B. vulgatus HM-720	M11	0.788
+B. wadsworthia	M11	0.0
+B. xylanisolvens	M11	1.423
+C. aerofaciens	M11	0.526
+C. bolteae	M11	0.0
+C. catus	M11	0.0
+C. comes	M11	0.3245
+C. leptum	M11	0.0
+C. perfringens C36	M11	0.0
+C. perfringens S107	M11	0.7065
+C. ramosum	M11	0.943
+C. saccharolyticum	M11	0.7568
+D. formicigenerans	M11	1.02833333333333
+D. piger	M11	0.0
+E. coli CFT073	M11	0.4055
+E. coli E2348/69	M11	0.5535
+E. coli ED1a	M11	0.746666666666667
+E. coli H10407	M11	0.5875
+E. coli HM605	M11	0.642
+E. coli IAI1	M11	0.636083333333333
+E. coli UTI89	M11	0.674
+E. eligens	M11	0.917666666666667
+E. lenta	M11	0.0
+E. limosum	M11	0.9
+E. rectale	M11	0.0
+E. siraeum	M11	0.0
+F. nucleatum subsp. animalis	M11	0.0
+F. nucleatum subsp. nucleatum	M11	0.0
+F. nucleatum subsp. vincentii	M11	0.0
+H. parainfluenzae	M11	0.0
+L. acidophilus	M11	0.0
+L. delbrueckii subsp. delbrueckii	M11	0.0
+L. fermentum	M11	0.0
+L. gasseri	M11	0.0
+L. lactis	M11	0.521833333333333
+L. paracasei	M11	0.0
+L. plantarum	M11	0.6245
+L. ruminis	M11	0.0
+L. sakei subsp. sakei	M11	0.0
+L. salivarius	M11	0.0
+L. vaginalis	M11	0.0
+O. splanchnicus	M11	0.0
+P. capillosus	M11	0.0
+P. copri	M11	0.0
+C. difficile	M11	0.3145
+P. distasonis	M11	0.717
+P. melaninogenica	M11	0.0
+P. merdae	M11	0.398
+R. bromii	M11	0.0
+R. gnavus	M11	0.68
+R. hominis	M11	0.0
+R. intestinalis	M11	0.271
+R. torques	M11	0.0
+S. flexneri	M11	0.557
+S. parasanguinis	M11	0.34
+S. salivarius	M11	0.819833333333333
+S. sonnei	M11	0.464666666666667
+S. typhimurium ATCC14028	M11	0.898
+S. typhimurium LT2	M11	0.590833333333333
+V. cholerae A1552	M11	0.2626
+V. cholerae N16961	M11	0.319833333333333
+V. parvula	M11	0.0
+Y. pseudotuberculosis	M11	0.0
+A. muciniphila	M13	0.0
+A. odontolyticus	M13	0.0
+A. putredinis	M13	0.0
+A. shahii	M13	0.0
+B. adolescentis	M13	0.0
+B. animalis subsp. lactis BI-07	M13	0.0
+B. animalis subsp. lactis BL-04	M13	0.0
+B. caccae	M13	0.305333333333333
+B. clarus	M13	0.359
+B. coprocola	M13	0.0
+B. crossotus	M13	0.0
+B. dorei	M13	0.0
+B. eggerthii	M13	0.0
+B. fragilis	M13	0.4125
+B. fragilis enterotoxigenic	M13	0.2877
+B. fragilis HM-20	M13	0.177333333333333
+B. fragilis HM-709	M13	0.203333333333333
+B. fragilis HM-710	M13	0.180666666666667
+B. fragilis HM-711	M13	0.181666666666667
+B. fragilis HM-712	M13	0.2145
+B. fragilis HM-713	M13	0.202333333333333
+B. fragilis HM-714	M13	0.224
+B. hansenii	M13	0.34375
+B. longum subsp. infantis	M13	0.582
+B. longum subsp. longum	M13	0.0
+B. obeum	M13	0.0
+B. ovatus	M13	0.242
+B. stercoris	M13	0.0
+B. thetaiotaomicron	M13	0.4235
+B. uniformis	M13	0.25375
+B. uniformis HM-715	M13	0.1885
+B. uniformis HM-716	M13	0.1725
+B. vulgatus	M13	0.0
+B. vulgatus HM-720	M13	0.343333333333333
+B. wadsworthia	M13	0.0
+B. xylanisolvens	M13	0.247
+C. aerofaciens	M13	0.0
+C. bolteae	M13	0.0
+C. catus	M13	0.0
+C. comes	M13	0.0
+C. leptum	M13	0.0
+C. perfringens C36	M13	0.0
+C. perfringens S107	M13	0.0
+C. ramosum	M13	0.0
+C. saccharolyticum	M13	0.0
+D. formicigenerans	M13	0.0
+D. piger	M13	0.0
+E. coli CFT073	M13	0.324
+E. coli E2348/69	M13	0.323333333333333
+E. coli ED1a	M13	0.4515
+E. coli H10407	M13	0.294666666666667
+E. coli HM605	M13	0.414333333333333
+E. coli IAI1	M13	0.362833333333333
+E. coli UTI89	M13	0.379
+E. eligens	M13	0.0
+E. lenta	M13	0.0
+E. limosum	M13	0.0
+E. rectale	M13	0.0
+E. siraeum	M13	0.0
+F. nucleatum subsp. animalis	M13	0.0
+F. nucleatum subsp. nucleatum	M13	0.0
+F. nucleatum subsp. vincentii	M13	0.0
+H. parainfluenzae	M13	0.0
+L. acidophilus	M13	0.0
+L. delbrueckii subsp. delbrueckii	M13	0.0
+L. fermentum	M13	0.0
+L. gasseri	M13	0.0
+L. lactis	M13	0.0
+L. paracasei	M13	0.0
+L. plantarum	M13	0.0
+L. ruminis	M13	0.0
+L. sakei subsp. sakei	M13	0.0
+L. salivarius	M13	0.0
+L. vaginalis	M13	0.0
+O. splanchnicus	M13	0.0
+P. capillosus	M13	0.0
+P. copri	M13	0.0
+C. difficile	M13	0.0
+P. distasonis	M13	0.0
+P. melaninogenica	M13	0.0
+P. merdae	M13	0.145
+R. bromii	M13	0.0
+R. gnavus	M13	0.0
+R. hominis	M13	0.0
+R. intestinalis	M13	0.0
+R. torques	M13	0.0
+S. flexneri	M13	0.15675
+S. parasanguinis	M13	0.0
+S. salivarius	M13	0.255
+S. sonnei	M13	0.0955
+S. typhimurium ATCC14028	M13	0.334833333333333
+S. typhimurium LT2	M13	0.3005
+V. cholerae A1552	M13	0.202875
+V. cholerae N16961	M13	0.202
+V. parvula	M13	0.0
+Y. pseudotuberculosis	M13	0.1775
+A. muciniphila	M14	0.0
+A. odontolyticus	M14	0.0
+A. putredinis	M14	0.0
+A. shahii	M14	0.0
+B. adolescentis	M14	0.2175
+B. animalis subsp. lactis BI-07	M14	0.0
+B. animalis subsp. lactis BL-04	M14	0.0
+B. caccae	M14	0.0
+B. clarus	M14	0.257333333333333
+B. coprocola	M14	0.0
+B. crossotus	M14	0.0
+B. dorei	M14	0.259333333333333
+B. eggerthii	M14	0.214
+B. fragilis	M14	0.211
+B. fragilis enterotoxigenic	M14	0.0
+B. fragilis HM-20	M14	0.0
+B. fragilis HM-709	M14	0.0
+B. fragilis HM-710	M14	0.0
+B. fragilis HM-711	M14	0.0
+B. fragilis HM-712	M14	0.0
+B. fragilis HM-713	M14	0.0
+B. fragilis HM-714	M14	0.0
+B. hansenii	M14	0.46575
+B. longum subsp. infantis	M14	1.006
+B. longum subsp. longum	M14	0.0
+B. obeum	M14	0.367
+B. ovatus	M14	0.371666666666667
+B. stercoris	M14	0.191333333333333
+B. thetaiotaomicron	M14	0.0
+B. uniformis	M14	0.231
+B. uniformis HM-715	M14	0.0
+B. uniformis HM-716	M14	0.188
+B. vulgatus	M14	0.4945
+B. vulgatus HM-720	M14	0.583333333333333
+B. wadsworthia	M14	0.0
+B. xylanisolvens	M14	0.403666666666667
+C. aerofaciens	M14	0.0
+C. bolteae	M14	0.0
+C. catus	M14	0.0
+C. comes	M14	0.24275
+C. leptum	M14	0.0
+C. perfringens C36	M14	0.743
+C. perfringens S107	M14	0.594333333333333
+C. ramosum	M14	0.0
+C. saccharolyticum	M14	0.0
+D. formicigenerans	M14	0.5
+D. piger	M14	0.0
+E. coli CFT073	M14	0.2465
+E. coli E2348/69	M14	0.182166666666667
+E. coli ED1a	M14	0.43075
+E. coli H10407	M14	0.231
+E. coli HM605	M14	0.37225
+E. coli IAI1	M14	0.42475
+E. coli UTI89	M14	0.340875
+E. eligens	M14	0.214
+E. lenta	M14	0.0
+E. limosum	M14	0.0
+E. rectale	M14	0.0
+E. siraeum	M14	0.0
+F. nucleatum subsp. animalis	M14	0.0
+F. nucleatum subsp. nucleatum	M14	0.0
+F. nucleatum subsp. vincentii	M14	0.0
+H. parainfluenzae	M14	0.0
+L. acidophilus	M14	0.0
+L. delbrueckii subsp. delbrueckii	M14	0.0
+L. fermentum	M14	0.0
+L. gasseri	M14	0.0
+L. lactis	M14	0.28425
+L. paracasei	M14	0.0
+L. plantarum	M14	0.0
+L. ruminis	M14	0.0
+L. sakei subsp. sakei	M14	0.0
+L. salivarius	M14	0.0
+L. vaginalis	M14	0.0
+O. splanchnicus	M14	0.0
+P. capillosus	M14	0.0
+P. copri	M14	0.0
+C. difficile	M14	0.459666666666667
+P. distasonis	M14	0.0
+P. melaninogenica	M14	0.0
+P. merdae	M14	0.0
+R. bromii	M14	0.0
+R. gnavus	M14	0.0
+R. hominis	M14	0.0
+R. intestinalis	M14	0.0
+R. torques	M14	0.0
+S. flexneri	M14	0.370166666666667
+S. parasanguinis	M14	0.3245
+S. salivarius	M14	0.409
+S. sonnei	M14	0.271333333333333
+S. typhimurium ATCC14028	M14	0.3045
+S. typhimurium LT2	M14	0.203
+V. cholerae A1552	M14	0.2715
+V. cholerae N16961	M14	0.176333333333333
+V. parvula	M14	0.0
+Y. pseudotuberculosis	M14	0.0
+A. muciniphila	M15A	0.0
+A. odontolyticus	M15A	0.0
+A. putredinis	M15A	0.0
+A. shahii	M15A	0.0
+B. adolescentis	M15A	0.0
+B. animalis subsp. lactis BI-07	M15A	0.0
+B. animalis subsp. lactis BL-04	M15A	0.0
+B. caccae	M15A	0.0
+B. clarus	M15A	0.0
+B. coprocola	M15A	0.0
+B. crossotus	M15A	0.0
+B. dorei	M15A	0.0
+B. eggerthii	M15A	0.0
+B. fragilis	M15A	0.0
+B. fragilis enterotoxigenic	M15A	0.0
+B. fragilis HM-20	M15A	0.0
+B. fragilis HM-709	M15A	0.0
+B. fragilis HM-710	M15A	0.0
+B. fragilis HM-711	M15A	0.0
+B. fragilis HM-712	M15A	0.0
+B. fragilis HM-713	M15A	0.0
+B. fragilis HM-714	M15A	0.0
+B. hansenii	M15A	0.0
+B. longum subsp. infantis	M15A	0.0
+B. longum subsp. longum	M15A	0.0
+B. obeum	M15A	0.0
+B. ovatus	M15A	0.0
+B. stercoris	M15A	0.0
+B. thetaiotaomicron	M15A	0.0
+B. uniformis	M15A	0.0
+B. uniformis HM-715	M15A	0.0
+B. uniformis HM-716	M15A	0.0
+B. vulgatus	M15A	0.0
+B. vulgatus HM-720	M15A	0.0
+B. wadsworthia	M15A	0.0
+B. xylanisolvens	M15A	0.0
+C. aerofaciens	M15A	0.0
+C. bolteae	M15A	0.0
+C. catus	M15A	0.0
+C. comes	M15A	0.0
+C. leptum	M15A	0.0
+C. perfringens C36	M15A	0.0
+C. perfringens S107	M15A	0.0
+C. ramosum	M15A	0.0
+C. saccharolyticum	M15A	0.0
+D. formicigenerans	M15A	0.0
+D. piger	M15A	0.0
+E. coli CFT073	M15A	0.104
+E. coli E2348/69	M15A	0.0
+E. coli ED1a	M15A	0.11075
+E. coli H10407	M15A	0.0
+E. coli HM605	M15A	0.12825
+E. coli IAI1	M15A	0.17125
+E. coli UTI89	M15A	0.0
+E. eligens	M15A	0.0
+E. lenta	M15A	0.0
+E. limosum	M15A	0.0
+E. rectale	M15A	0.0
+E. siraeum	M15A	0.0
+F. nucleatum subsp. animalis	M15A	0.0
+F. nucleatum subsp. nucleatum	M15A	0.0
+F. nucleatum subsp. vincentii	M15A	0.0
+H. parainfluenzae	M15A	0.0
+L. acidophilus	M15A	0.0
+L. delbrueckii subsp. delbrueckii	M15A	0.0
+L. fermentum	M15A	0.0
+L. gasseri	M15A	0.0
+L. lactis	M15A	0.0
+L. paracasei	M15A	0.0
+L. plantarum	M15A	0.0
+L. ruminis	M15A	0.0
+L. sakei subsp. sakei	M15A	0.0
+L. salivarius	M15A	0.0
+L. vaginalis	M15A	0.0
+O. splanchnicus	M15A	0.0
+P. capillosus	M15A	0.0
+P. copri	M15A	0.0
+C. difficile	M15A	0.0
+P. distasonis	M15A	0.0
+P. melaninogenica	M15A	0.0
+P. merdae	M15A	0.0
+R. bromii	M15A	0.0
+R. gnavus	M15A	0.0
+R. hominis	M15A	0.0
+R. intestinalis	M15A	0.0
+R. torques	M15A	0.0
+S. flexneri	M15A	0.0
+S. parasanguinis	M15A	0.0
+S. salivarius	M15A	0.0
+S. sonnei	M15A	0.0
+S. typhimurium ATCC14028	M15A	0.0
+S. typhimurium LT2	M15A	0.0
+V. cholerae A1552	M15A	0.0
+V. cholerae N16961	M15A	0.0
+V. parvula	M15A	0.0
+Y. pseudotuberculosis	M15A	0.0
+A. muciniphila	M15B	0.0
+A. odontolyticus	M15B	0.0
+A. putredinis	M15B	0.0
+A. shahii	M15B	0.0
+B. adolescentis	M15B	0.0
+B. animalis subsp. lactis BI-07	M15B	0.0
+B. animalis subsp. lactis BL-04	M15B	0.0
+B. caccae	M15B	0.0
+B. clarus	M15B	0.0
+B. coprocola	M15B	0.0
+B. crossotus	M15B	0.0
+B. dorei	M15B	0.0
+B. eggerthii	M15B	0.0
+B. fragilis	M15B	0.0
+B. fragilis enterotoxigenic	M15B	0.0
+B. fragilis HM-20	M15B	0.0
+B. fragilis HM-709	M15B	0.0
+B. fragilis HM-710	M15B	0.0
+B. fragilis HM-711	M15B	0.0
+B. fragilis HM-712	M15B	0.0
+B. fragilis HM-713	M15B	0.0
+B. fragilis HM-714	M15B	0.0
+B. hansenii	M15B	0.0
+B. longum subsp. infantis	M15B	0.0
+B. longum subsp. longum	M15B	0.0
+B. obeum	M15B	0.0
+B. ovatus	M15B	0.0
+B. stercoris	M15B	0.0
+B. thetaiotaomicron	M15B	0.0
+B. uniformis	M15B	0.0
+B. uniformis HM-715	M15B	0.0
+B. uniformis HM-716	M15B	0.0
+B. vulgatus	M15B	0.0
+B. vulgatus HM-720	M15B	0.0
+B. wadsworthia	M15B	0.0
+B. xylanisolvens	M15B	0.0
+C. aerofaciens	M15B	0.0
+C. bolteae	M15B	0.0
+C. catus	M15B	0.0
+C. comes	M15B	0.0
+C. leptum	M15B	0.0
+C. perfringens C36	M15B	0.0
+C. perfringens S107	M15B	0.0
+C. ramosum	M15B	0.0
+C. saccharolyticum	M15B	0.0
+D. formicigenerans	M15B	0.0
+D. piger	M15B	0.0
+E. coli CFT073	M15B	0.0
+E. coli E2348/69	M15B	0.0
+E. coli ED1a	M15B	0.0
+E. coli H10407	M15B	0.0
+E. coli HM605	M15B	0.0
+E. coli IAI1	M15B	0.0
+E. coli UTI89	M15B	0.0
+E. eligens	M15B	0.0
+E. lenta	M15B	0.0
+E. limosum	M15B	0.0
+E. rectale	M15B	0.0
+E. siraeum	M15B	0.0
+F. nucleatum subsp. animalis	M15B	0.0
+F. nucleatum subsp. nucleatum	M15B	0.0
+F. nucleatum subsp. vincentii	M15B	0.0
+H. parainfluenzae	M15B	0.0
+L. acidophilus	M15B	0.0
+L. delbrueckii subsp. delbrueckii	M15B	0.0
+L. fermentum	M15B	0.0
+L. gasseri	M15B	0.0
+L. lactis	M15B	0.0
+L. paracasei	M15B	0.0
+L. plantarum	M15B	0.0
+L. ruminis	M15B	0.0
+L. sakei subsp. sakei	M15B	0.0
+L. salivarius	M15B	0.0
+L. vaginalis	M15B	0.0
+O. splanchnicus	M15B	0.0
+P. capillosus	M15B	0.0
+P. copri	M15B	0.0
+C. difficile	M15B	0.0
+P. distasonis	M15B	0.0
+P. melaninogenica	M15B	0.0
+P. merdae	M15B	0.0
+R. bromii	M15B	0.0
+R. gnavus	M15B	0.0
+R. hominis	M15B	0.0
+R. intestinalis	M15B	0.0
+R. torques	M15B	0.0
+S. flexneri	M15B	0.0
+S. parasanguinis	M15B	0.0
+S. salivarius	M15B	0.0
+S. sonnei	M15B	0.0
+S. typhimurium ATCC14028	M15B	0.0
+S. typhimurium LT2	M15B	0.0
+V. cholerae A1552	M15B	0.0
+V. cholerae N16961	M15B	0.0
+V. parvula	M15B	0.0
+Y. pseudotuberculosis	M15B	0.0
+A. muciniphila	M16	0.0
+A. odontolyticus	M16	0.0
+A. putredinis	M16	0.0
+A. shahii	M16	0.0
+B. adolescentis	M16	0.0
+B. animalis subsp. lactis BI-07	M16	0.0
+B. animalis subsp. lactis BL-04	M16	0.0
+B. caccae	M16	0.0
+B. clarus	M16	0.0
+B. coprocola	M16	0.0
+B. crossotus	M16	0.0
+B. dorei	M16	0.0
+B. eggerthii	M16	0.0
+B. fragilis	M16	0.0
+B. fragilis enterotoxigenic	M16	0.0
+B. fragilis HM-20	M16	0.0
+B. fragilis HM-709	M16	0.0
+B. fragilis HM-710	M16	0.0
+B. fragilis HM-711	M16	0.0
+B. fragilis HM-712	M16	0.0
+B. fragilis HM-713	M16	0.0
+B. fragilis HM-714	M16	0.0
+B. hansenii	M16	0.0
+B. longum subsp. infantis	M16	0.0
+B. longum subsp. longum	M16	0.0
+B. obeum	M16	0.0
+B. ovatus	M16	0.0
+B. stercoris	M16	0.0
+B. thetaiotaomicron	M16	0.0
+B. uniformis	M16	0.0
+B. uniformis HM-715	M16	0.0
+B. uniformis HM-716	M16	0.0
+B. vulgatus	M16	0.0
+B. vulgatus HM-720	M16	0.0
+B. wadsworthia	M16	0.0
+B. xylanisolvens	M16	0.0
+C. aerofaciens	M16	0.0
+C. bolteae	M16	0.0
+C. catus	M16	0.0
+C. comes	M16	0.0
+C. leptum	M16	0.0
+C. perfringens C36	M16	0.0
+C. perfringens S107	M16	0.0
+C. ramosum	M16	0.0
+C. saccharolyticum	M16	0.0
+D. formicigenerans	M16	0.0
+D. piger	M16	0.0
+E. coli CFT073	M16	0.0
+E. coli E2348/69	M16	0.0
+E. coli ED1a	M16	0.0
+E. coli H10407	M16	0.0
+E. coli HM605	M16	0.0
+E. coli IAI1	M16	0.0
+E. coli UTI89	M16	0.0
+E. eligens	M16	0.0
+E. lenta	M16	0.0
+E. limosum	M16	0.0
+E. rectale	M16	0.0
+E. siraeum	M16	0.0
+F. nucleatum subsp. animalis	M16	0.0
+F. nucleatum subsp. nucleatum	M16	0.0
+F. nucleatum subsp. vincentii	M16	0.0
+H. parainfluenzae	M16	0.0
+L. acidophilus	M16	0.0
+L. delbrueckii subsp. delbrueckii	M16	0.0
+L. fermentum	M16	0.0
+L. gasseri	M16	0.0
+L. lactis	M16	0.0
+L. paracasei	M16	0.0
+L. plantarum	M16	0.0
+L. ruminis	M16	0.0
+L. sakei subsp. sakei	M16	0.0
+L. salivarius	M16	0.0
+L. vaginalis	M16	0.0
+O. splanchnicus	M16	0.0
+P. capillosus	M16	0.0
+P. copri	M16	0.0
+C. difficile	M16	0.0
+P. distasonis	M16	0.0
+P. melaninogenica	M16	0.0
+P. merdae	M16	0.0
+R. bromii	M16	0.0
+R. gnavus	M16	0.0
+R. hominis	M16	0.0
+R. intestinalis	M16	0.0
+R. torques	M16	0.0
+S. flexneri	M16	0.0
+S. parasanguinis	M16	0.0
+S. salivarius	M16	0.0
+S. sonnei	M16	0.0
+S. typhimurium ATCC14028	M16	0.0
+S. typhimurium LT2	M16	0.0
+V. cholerae A1552	M16	0.0
+V. cholerae N16961	M16	0.0
+V. parvula	M16	0.0
+Y. pseudotuberculosis	M16	0.0

@@ -1,0 +1,7 @@
+_target_: sklearn.svm.SVR
+C: 1.0
+kernel: 'rbf'
+tol: 1e-3
+verbose: True
+
+

@@ -1,0 +1,18 @@
+experiment_name: komodo_fba_carveme2_models
+
+run_idx: 0
+
+data_dir: ${user.wd}/data/komodo_scraper
+test_data: ${data_dir}/processed_data/labelled_komodo_df.csv
+
+compound_prefix: X_MEDIA_
+
+species_label: Y_species_label
+growth_label: Y_growth_class
+models_dir: /Users/bezk/Downloads/proteomes_KOMODO/models
+# models_dir: ${user.wd}/mlruns/9/59c2dba7cd28422895db92c57f8465a8/artifacts/gapfilled_models
+media_path: ${data_dir}/processed_data/media_db.tsv
+
+defaults:
+  - _self_
+  - user: local

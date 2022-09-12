@@ -1,0 +1,18 @@
+experiment_name: cobra_2_fba
+
+run_idx: 0
+data_dir: ${user.wd}/data/melanie_data
+test_data: ${data_dir}/processed/labelled_monoculture_df.csv
+
+compound_prefix: X_MEDIA_
+
+species_label: Y_species_label
+growth_label: Y_growth_class
+# models_dir: ${data_dir}/intermediate_data/models/
+models_dir: /Users/bezk/Downloads/proteomes_done/models/
+
+media_path: ${data_dir}/processed_data/media_db.tsv
+
+defaults:
+  - _self_
+  - user: local

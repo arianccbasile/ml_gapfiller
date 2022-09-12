@@ -1,0 +1,23 @@
+experiment_name: train
+run_idx: 0
+data_dir: /Users/bezk/Documents/CAM/research_code/ml_informed_gapfill/data/melanie_data/processed/
+
+train_val_data_path: ${data_dir}/train_df.csv
+test_data_path: ${data_dir}/test_df.csv
+
+run_mode: train_sklearn_model
+
+# Data hyperparameters
+test_size: 0.8
+batch_size: 8
+
+feature_prefix: X_
+target_Y:
+  - Y_growth_class 
+
+
+defaults:
+  - _self_
+  - preprocessing: default_classification
+  - data_loader: default
+  - model: boosted_trees_classifier
