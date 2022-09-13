@@ -88,8 +88,11 @@ def move_uniprot_proteomes(organism_summary, proteomes_dir, uniprotproteomes_dir
         if len(uniprot_row) == 0:
             print(species, assembly)
             continue
+        
+        elif isinstance(uniprot_row.Uniprot.values[0], str):
+            pass
 
-        if np.isnan(uniprot_row.Uniprot.values[0]):
+        elif np.isnan(uniprot_row.Uniprot.values[0]):
             continue
 
         Path(f"{proteomes_dir}/{species}/").mkdir(parents=True, exist_ok=True)
@@ -106,27 +109,29 @@ def make_gsmms(organism_summary, proteomes_dir, models_dir):
     has_gsmm = []
     for species in organism_summary["designation in screen"].values:
         num_proteomes = glob(f"{proteomes_dir}/{species}/*.faa")
-        if num_proteomes == 0:
+        if len(num_proteomes) == 0:
             has_proteome.append(False)
-            continue
+            
 
         else:
             has_proteome.append(True)
 
-        command = f"carve -v --fbc2 -o {models_dir}/{species}.xml {proteomes_dir}/{species}/{species}.faa"
+            command = f"carve -v --fbc2 -o {models_dir}/{species}.xml {proteomes_dir}/{species}/{species}.faa"
 
-        output = subprocess.run(command, shell=True)
-        if output.returncode == 1:
-            has_gsmm.append(False)
+            output = subprocess.run(command, shell=True)
+            if output.returncode == 1:
+                has_gsmm.append(False)
 
-        else:
-            has_gsmm.append(True)
+            else:
+                has_gsmm.append(True)
+    
     organism_summary["has_gsmm"] = has_gsmm
+    organism_summary["has_proteome"] = has_proteome
     return organism_summary
 
 
 def main():
-    wd = "/Users/bezk/Documents/CAM/research_code/ml_informed_gapfill/"
+    wd = "/rds/user/bk445/hpc-work/ml_gapfiller"
     data_dir = f"{wd}/data/melanie_data"
     genomes_dir = f"{data_dir}/genomes/"
     proteomes_dir = f"{data_dir}/proteomes/"
@@ -136,7 +141,7 @@ def main():
     raw_data_dir = f"{data_dir}/raw/"
     intermediate_data_dir = f"{data_dir}/intermediate/"
 
-    # # Load supp
+    # # # Load supp
     # organism_summary = pd.read_excel(
     #     f"{raw_data_dir}/supp_material.xlsx", sheet_name="S1. Selected gut bacteria"
     # )
@@ -148,7 +153,7 @@ def main():
     organism_summary = pd.read_csv(f"{data_dir}/organism_summary.csv", index_col=0)
 
     # make_proteomes(organism_summary, proteomes_dir, genomes_dir)
-    # move_uniprot_proteomes(organism_summary, proteomes_dir, uniprotproteomes_dir)
+    move_uniprot_proteomes(organism_summary, proteomes_dir, uniprotproteomes_dir)
     organism_summary = make_gsmms(organism_summary, proteomes_dir, models_dir)
     organism_summary.to_csv(f"{data_dir}/organism_summary.csv")
 
