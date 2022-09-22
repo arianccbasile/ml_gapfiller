@@ -59,6 +59,9 @@ def make_proteomes(organism_summary, proteomes_dir, genomes_dir):
     sub_df = organism_summary.loc[organism_summary["has_genome"] == 1]
 
     for species in sub_df["designation in screen"].values:
+        if species != 'C_difficile':
+            continue
+
         species_genome_dir = glob(f"{genomes_dir}/{species}/genbank/bacteria/**/")[0]
 
         # Unzip fasta
@@ -111,11 +114,11 @@ def make_gsmms(organism_summary, proteomes_dir, models_dir):
         num_proteomes = glob(f"{proteomes_dir}/{species}/*.faa")
         if len(num_proteomes) == 0:
             has_proteome.append(False)
-            
+            has_gsmm.append(False)
 
         else:
             has_proteome.append(True)
-
+            has_gsmm.append(True)
             command = f"carve -v --fbc2 -o {models_dir}/{species}.xml {proteomes_dir}/{species}/{species}.faa"
 
             output = subprocess.run(command, shell=True)
@@ -142,17 +145,17 @@ def main():
     intermediate_data_dir = f"{data_dir}/intermediate/"
 
     # # # Load supp
-    # organism_summary = pd.read_excel(
-    #     f"{raw_data_dir}/supp_material.xlsx", sheet_name="S1. Selected gut bacteria"
-    # )
-    # format_species_column(organism_summary, species_col="designation in screen")
+    organism_summary = pd.read_excel(
+        f"{raw_data_dir}/supp_material.xlsx", sheet_name="S1. Selected gut bacteria"
+    )
+    format_species_column(organism_summary, species_col="designation in screen")
 
-    # organism_summary = get_genomes(organism_summary, output_dir=genomes_dir)
+    organism_summary = get_genomes(organism_summary, output_dir=genomes_dir)
     # organism_summary.to_csv(f"{data_dir}/organism_summary.csv")
 
-    organism_summary = pd.read_csv(f"{data_dir}/organism_summary.csv", index_col=0)
+    # organism_summary = pd.read_csv(f"{data_dir}/organism_summary.csv", index_col=0)
 
-    # make_proteomes(organism_summary, proteomes_dir, genomes_dir)
+    make_proteomes(organism_summary, proteomes_dir, genomes_dir)
     move_uniprot_proteomes(organism_summary, proteomes_dir, uniprotproteomes_dir)
     organism_summary = make_gsmms(organism_summary, proteomes_dir, models_dir)
     organism_summary.to_csv(f"{data_dir}/organism_summary.csv")
