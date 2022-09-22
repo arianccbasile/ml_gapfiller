@@ -69,7 +69,6 @@ def combine_media_model_data(media_features_df, model_features_df):
     # All other columns are features
 
     return features_df
-    print(features_df.loc[:, features_df.columns.str.startswith("Y_")].columns)
 
 
 def gapfill_from_proteome(gapfill_medias, media_db_path, proteome_path, output_path):
@@ -81,7 +80,7 @@ def gapfill_from_proteome(gapfill_medias, media_db_path, proteome_path, output_p
     else:
         gapfill_command = ""
 
-    command = f"carve {gapfill_command}  --fbc2 -o {output_path} {proteome_path}"
+    command = f"carve {gapfill_command} --fbc2 -o {output_path} {proteome_path}"
     output = subprocess.run(command, shell=True)
 
 
@@ -143,22 +142,22 @@ def main(cfg: DictConfig):
                         gapfill_medias.append(media_labels[idx])
 
             output_dir = "./gapfilled_models/"
-            Path(f'{output_dir}').mkdir(parents=True, exist_ok=True)
+            Path(f"{output_dir}").mkdir(parents=True, exist_ok=True)
             print(gapfill_medias)
 
-            gapfill_from_proteome(
-                gapfill_medias=gapfill_medias,
-                proteome_path=f"{cfg.proteomes_dir}/{species_name}/{species_name}.faa",
-                media_db_path=f"{cfg.media_db}",
-                output_path=f"{output_dir}/{species_name}.xml",
-            )
-
-            # gapfill_existing_model(
+            # gapfill_from_proteome(
             #     gapfill_medias=gapfill_medias,
-            #     model_path=f"{cfg.models_dir}/{species_name}.xml",
+            #     proteome_path=f"{cfg.proteomes_dir}/{species_name}/{species_name}.faa",
             #     media_db_path=f"{cfg.media_db}",
             #     output_path=f"{output_dir}/{species_name}.xml",
             # )
+
+            gapfill_existing_model(
+                gapfill_medias=gapfill_medias,
+                model_path=f"{cfg.models_dir}/{species_name}.xml",
+                media_db_path=f"{cfg.media_db}",
+                output_path=f"{output_dir}/{species_name}.xml",
+            )
 
         mlflow.log_artifact("./gapfilled_models/")
 
