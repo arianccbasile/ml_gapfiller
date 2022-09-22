@@ -1,4 +1,5 @@
 _target_: sklearn.tree.DecisionTreeClassifier
+criterion: 'gini'
 splitter: best
 max_depth: null
 max_features: auto
