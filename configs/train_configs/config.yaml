@@ -1,14 +1,20 @@
 experiment_name: train
 run_idx: 0
+
+# Directory of input data
 data_dir: {$user.wd}/data/melanie_data/processed/
 
+# Path to training data
 train_val_data_path: ${data_dir}/train_df.csv
+
+# Path to test data
 test_data_path: ${data_dir}/test_df.csv
 
+# Run mode (currently only supports train_sklearn_model)
 run_mode: train_sklearn_model
 
 # Data hyperparameters
-test_size: 0.8
+test_size: 0.2
 batch_size: 8
 
 feature_prefix: X_
@@ -18,6 +24,7 @@ target_Y:
 
 defaults:
   - _self_
+  - user: local
   - preprocessing: default_classification
   - data_loader: default
   - model: boosted_trees_classifier

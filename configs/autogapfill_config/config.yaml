@@ -20,3 +20,8 @@ media_db: ${train_data}/raw/melanie_data_media.tsv
 
 species_label: Y_species_label
 growth_label: Y_growth_class
+
+
+defaults:
+  - _self_
+  - user: local
