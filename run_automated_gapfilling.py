@@ -93,7 +93,7 @@ def gapfill_existing_model(gapfill_medias, media_db_path, model_path, output_pat
             output = subprocess.run(command, shell=True)
 
 
-@hydra.main(config_path="./configs/autogapfill_config/", config_name="config")
+@hydra.main(config_path="./configs/autogapfill/", config_name="config")
 def main(cfg: DictConfig):
     mlflow.set_tracking_uri("file://" + hydra.utils.get_original_cwd() + "/mlruns")
     mlflow.set_experiment(experiment_name=cfg.experiment_name)

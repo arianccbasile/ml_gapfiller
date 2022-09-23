@@ -111,7 +111,6 @@ def generate_model_metrics(model, X_train, y_train, X_val, y_val):
         mlflow.log_metric("acc_test", acc_test)
 
 
-
 def model_evaluation(model, data_loader):
     logger.info("Generating test metrics...")
 
@@ -249,13 +248,10 @@ def train_sklearn_model(cfg: DictConfig):
         )
 
 
-@hydra.main(config_path="./configs/train_configs", config_name="config")
+@hydra.main(config_path="./configs/train", config_name="config")
 def main(cfg: DictConfig):
     if cfg.run_mode == "train_sklearn_model":
         train_sklearn_model(cfg)
-
-    # elif cfg.run_mode == "train_pytorch_model":
-    #     train_pytorch_model(cfg)
 
 
 if __name__ == "__main__":
