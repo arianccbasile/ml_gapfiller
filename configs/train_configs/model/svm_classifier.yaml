@@ -1,6 +1,9 @@
 _target_: sklearn.svm.SVC
 C: 1.0
 kernel: 'rbf'
-verbose: True
-
-
+gamma: 'scale'
+verbose: False
+degree: 3
+shrinking: True
+probability: True
+tol: 1e-3
