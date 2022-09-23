@@ -1,4 +1,10 @@
 # ML Gapfill
+1. Train machine learning classifiers to predict organism growth on defined media's.
+
+2. Use trained classifiers to gapfill uncurated genome-scale metabolic models (GSMMs)
+
+3. Test gapfilled GSMMs performance on new data
+
 
 # Installation instructions
 1. Create new conda environment\
@@ -7,10 +13,13 @@
 2. Activate environment\
     `conda activate mlfill`
 
-3. Install requirements 
+3. Install requirements\
     `pip install -r requirements.txt`
 
-4. Run tests
+4. Install package\
+    `python setup.py build install`
+
+4. Run tests\
     `pytest src/tests/* --vv`
 
 # Data preparation
