@@ -4,7 +4,13 @@ from omegaconf import DictConfig, ListConfig
 import mlflow
 
 from loguru import logger
-from sklearn.metrics import f1_score, accuracy_score, average_precision_score
+from sklearn.metrics import (
+    f1_score,
+    accuracy_score,
+    average_precision_score,
+    recall_score,
+    precision_score,
+)
 from sklearn.base import is_classifier
 
 from sweet_ml.visualisation import plot_confusion_matrix
@@ -84,31 +90,55 @@ def make_precision_recall_curve(model, X, y_true):
     return fig
 
 
-def generate_model_metrics(model, X_train, y_train, X_val, y_val):
+def generate_model_metrics(model, data_loader):
     logger.info("Generating validation metrics...")
 
+    X_train, y_train = data_loader.get_train_data_arrays()
+    X_val, y_val = data_loader.get_val_data_arrays()
+    X_test, y_test = data_loader.get_test_data_arrays()
+
     y_pred_train = model.predict(X_train)
-    y_pred_val = model.predict(X_val)
+    y_pred_test = model.predict(X_test)
 
     if is_classifier(model):
+
+        if len(X_val) != 0:
+            y_pred_val = model.predict(X_val)
+
+            f1_val = f1_score(y_val, y_pred_val)
+            acc_val = accuracy_score(y_val, y_pred_val)
+            prec_val = precision_score(y_val, y_pred_val)
+            recall_val = recall_score(y_val, y_pred_val)
+
+            mlflow.log_metric("acc_validation", acc_val)
+            mlflow.log_metric("f1_validation", f1_val)
+            mlflow.log_metric("prec_val", prec_val)
+            mlflow.log_metric("recall_val", recall_val)
+
+        
         f1_train = f1_score(y_train, y_pred_train)
-        f1_val = f1_score(y_val, y_pred_val)
+        f1_test = f1_score(y_test, y_pred_test)
 
         mlflow.log_metric("f1_train", f1_train)
-        mlflow.log_metric("f1_validation", f1_val)
+        mlflow.log_metric("f1_test", f1_test)
 
         acc_train = accuracy_score(y_train, y_pred_train)
-        acc_val = accuracy_score(y_val, y_pred_val)
+        acc_test = accuracy_score(y_test, y_pred_test)
 
         mlflow.log_metric("acc_train", acc_train)
-        mlflow.log_metric("acc_validation", acc_val)
-
-        prec_val = average_precision_score(y_val, y_pred_val)
-        mlflow.log_metric("prec_val", prec_val)
-
-        acc_test = accuracy_score(y_val, y_pred_val)
-
         mlflow.log_metric("acc_test", acc_test)
+
+        prec_train = precision_score(y_train, y_pred_train)
+        prec_test = precision_score(y_test, y_pred_test)
+
+        mlflow.log_metric("prec_train", prec_train)
+        mlflow.log_metric("prec_test", prec_test)
+
+        recall_train = recall_score(y_train, y_pred_train)
+        recall_test = recall_score(y_test, y_pred_test)
+
+        mlflow.log_metric("recall_train", recall_train)
+        mlflow.log_metric("recall_test", recall_test)
 
 
 def model_evaluation(model, data_loader):
@@ -124,9 +154,6 @@ def model_evaluation(model, data_loader):
 
     plot_confusion_matrix(y_test, X_test, model, "./test_confusion_matrix.png")
 
-    data_loader.test_df.to_csv("./test_df.csv")
-    mlflow.log_artifact("./test_df.csv")
-
     y_pred = model.predict(X_test)
 
     test_df_labelled = data_loader.test_df.copy()
@@ -138,9 +165,7 @@ def model_evaluation(model, data_loader):
     fig.write_image("./test_dendrogram.pdf")
     mlflow.log_artifact("test_dendrogram.pdf")
 
-    fig = plot_models_dendrogram_v2(
-        test_df_labelled, "test_confusion_dendrogram.html"
-    )
+    fig = plot_models_dendrogram_v2(test_df_labelled, "test_confusion_dendrogram.html")
     fig.write_html("./test_confusion_dendrogram.html")
     mlflow.log_artifact("test_confusion_dendrogram.html")
 
@@ -164,46 +189,47 @@ def model_visualisation(model, data_loader):
 
     if is_classifier(model):
         X_val, y_val = data_loader.get_val_data_arrays()
-        plot_confusion_matrix(y_val, X_val, model, "./val_confusion_matrix.png")
+        if len(X_val) > 0:
+            plot_confusion_matrix(y_val, X_val, model, "./val_confusion_matrix.png")
 
-        y_pred = model.predict(X_val)
+            y_pred = model.predict(X_val)
 
-        val_df_labelled = data_loader.val_df.copy()
-        val_df_labelled["Y_pred"] = y_pred
+            val_df_labelled = data_loader.val_df.copy()
+            val_df_labelled["Y_pred"] = y_pred
 
-        fig = plot_models_dendrogram_v2(
-            val_df_labelled, "val_dendrogram.html", confusion=False
-        )
-        fig.write_image("./val_dendrogram.pdf")
-        mlflow.log_artifact("val_dendrogram.pdf")
+            fig = plot_models_dendrogram_v2(
+                val_df_labelled, "val_dendrogram.html", confusion=False
+            )
+            fig.write_image("./val_dendrogram.pdf")
+            mlflow.log_artifact("val_dendrogram.pdf")
 
-        fig = plot_models_dendrogram_v2(
-            val_df_labelled, "val_confusion_dendrogram.html"
-        )
-        fig.write_html("./val_confusion_dendrogram.html")
-        mlflow.log_artifact("val_confusion_dendrogram.html")
+            fig = plot_models_dendrogram_v2(
+                val_df_labelled, "val_confusion_dendrogram.html"
+            )
+            fig.write_html("./val_confusion_dendrogram.html")
+            mlflow.log_artifact("val_confusion_dendrogram.html")
 
-        fig.write_image("./val_confusion_dendrogram.pdf")
-        mlflow.log_artifact("val_confusion_dendrogram.pdf")
+            fig.write_image("./val_confusion_dendrogram.pdf")
+            mlflow.log_artifact("val_confusion_dendrogram.pdf")
 
-        fig = make_roc_curve(model, X_val, y_val)
-        fig.write_html("./val_roc_classification.html")
-        mlflow.log_artifact("val_roc_classification.html")
+            fig = make_roc_curve(model, X_val, y_val)
+            fig.write_html("./val_roc_classification.html")
+            mlflow.log_artifact("val_roc_classification.html")
 
-        fig.write_image("./val_roc_classification.pdf")
-        mlflow.log_artifact("val_roc_classification.pdf")
+            fig.write_image("./val_roc_classification.pdf")
+            mlflow.log_artifact("val_roc_classification.pdf")
 
-        fig = make_precision_recall_curve(model, X_val, y_val)
-        fig.write_image("./val_pr_classification.pdf")
-        mlflow.log_artifact("val_pr_classification.pdf")
+            fig = make_precision_recall_curve(model, X_val, y_val)
+            fig.write_image("./val_pr_classification.pdf")
+            mlflow.log_artifact("val_pr_classification.pdf")
 
-        # fig = plot_models_dendrogram(val_df_labelled, "val_confusion_dendrogram.html", confusion=True)
-        # fig.write_image("./fig_val_dendrogram_confusion.pdf")
-        # mlflow.log_artifact("fig_val_dendrogram_confusion.pdf")
+            # fig = plot_models_dendrogram(val_df_labelled, "val_confusion_dendrogram.html", confusion=True)
+            # fig.write_image("./fig_val_dendrogram_confusion.pdf")
+            # mlflow.log_artifact("fig_val_dendrogram_confusion.pdf")
 
-        # fig = plot_models_dendrogram(val_df_labelled, "val_dendrogram.html", confusion=False)
-        # fig.write_image("./fig_val_dendrogram.pdf")
-        # mlflow.log_artifact("fig_val_dendrogram.pdf")
+            # fig = plot_models_dendrogram(val_df_labelled, "val_dendrogram.html", confusion=False)
+            # fig.write_image("./fig_val_dendrogram.pdf")
+            # mlflow.log_artifact("fig_val_dendrogram.pdf")
 
 
 def train_sklearn_model(cfg: DictConfig):
@@ -236,7 +262,7 @@ def train_sklearn_model(cfg: DictConfig):
 
         model.fit(X_train, y_train)
 
-        generate_model_metrics(model, X_train, y_train, X_val, y_val)
+        generate_model_metrics(model, data_loader)
 
         model_visualisation(model, data_loader)
 
@@ -248,10 +274,13 @@ def train_sklearn_model(cfg: DictConfig):
         )
 
 
-@hydra.main(config_path="./configs/train", config_name="config")
+@hydra.main(config_path="./configs/train_configs", config_name="config")
 def main(cfg: DictConfig):
     if cfg.run_mode == "train_sklearn_model":
         train_sklearn_model(cfg)
+
+    # elif cfg.run_mode == "train_pytorch_model":
+    #     train_pytorch_model(cfg)
 
 
 if __name__ == "__main__":

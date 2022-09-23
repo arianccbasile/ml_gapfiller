@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 
 from pathlib import Path
 
+
 def log_params_from_omegaconf_dict(params):
     for param_name, element in params.items():
         _explore_recursive(param_name, element)
@@ -80,7 +81,7 @@ def generate_model_metrics(
     mlflow.log_artifact("test_confusion_dendrogram.html")
 
 
-@hydra.main(config_path="./configs/gsmm", config_name="config")
+@hydra.main(config_path="./configs/fba_configs", config_name="config")
 def main(cfg: DictConfig):
     mlflow.set_tracking_uri("file://" + hydra.utils.get_original_cwd() + "/mlruns")
     mlflow.set_experiment(experiment_name=cfg.experiment_name)
@@ -94,20 +95,20 @@ def main(cfg: DictConfig):
         # Load test data
         test_df = pd.read_csv(cfg.test_data)
 
-        test_df['has_gsmm'] = 0
+        test_df["has_gsmm"] = 0
 
         # Look for models
         for species_idx, species in enumerate(test_df[cfg.species_label].unique()):
             model_path = f"{cfg.models_dir}/{species}.xml"
             if Path(model_path).exists():
                 print(model_path)
-                test_df.loc[test_df[cfg.species_label] == species, 'has_gsmm'] = 1
+                test_df.loc[test_df[cfg.species_label] == species, "has_gsmm"] = 1
 
             else:
-                test_df.loc[test_df[cfg.species_label] == species, 'has_gsmm'] = 0
+                test_df.loc[test_df[cfg.species_label] == species, "has_gsmm"] = 0
 
-        test_df = test_df.loc[test_df['has_gsmm'] == 1]
-        test_df.drop('has_gsmm', inplace=True, axis=1)
+        test_df = test_df.loc[test_df["has_gsmm"] == 1]
+        test_df.drop("has_gsmm", inplace=True, axis=1)
 
         # Initialise FBA classifier
         model = FBAClassifier(models_dir=cfg.models_dir)
