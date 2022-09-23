@@ -1,7 +1,7 @@
 experiment_name: autogapfill
 
 run_idx: 0
-wd: /Users/bezk/Documents/CAM/research_code/ml_informed_gapfill
+wd: ${user.wd}
 test_data: ${wd}/data/komodo_scraper/
 train_data: ${wd}/data/melanie_data/
 
@@ -10,8 +10,8 @@ models_dir: ${test_data}/intermediate_data/ensemble_models/
 model_features_path: ${test_data}/processed_data/model_features.csv
 media_features_path: ${train_data}/intermediate/media_features.csv
 
-classifier_path: 'runs:/8e1afa697d21401089094b3760d25802/model'
-classifier_run_id: 8e1afa697d21401089094b3760d25802
+classifier_path: 'runs:/5503e02c1465460b891366ca88bf94a5/model'
+classifier_run_id: 5503e02c1465460b891366ca88bf94a5
 
 compound_prefix: X_MEDIA_
 

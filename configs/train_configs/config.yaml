@@ -1,6 +1,6 @@
 experiment_name: train
 run_idx: 0
-data_dir: /Users/bezk/Documents/CAM/research_code/ml_informed_gapfill/data/melanie_data/processed/
+data_dir: {$user.wd}/data/melanie_data/processed/
 
 train_val_data_path: ${data_dir}/train_df.csv
 test_data_path: ${data_dir}/test_df.csv
