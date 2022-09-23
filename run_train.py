@@ -274,7 +274,7 @@ def train_sklearn_model(cfg: DictConfig):
         )
 
 
-@hydra.main(config_path="./configs/train_configs", config_name="config")
+@hydra.main(config_path="./configs/train", config_name="config")
 def main(cfg: DictConfig):
     if cfg.run_mode == "train_sklearn_model":
         train_sklearn_model(cfg)

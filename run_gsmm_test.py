@@ -81,7 +81,7 @@ def generate_model_metrics(
     mlflow.log_artifact("test_confusion_dendrogram.html")
 
 
-@hydra.main(config_path="./configs/fba_configs", config_name="config")
+@hydra.main(config_path="./configs/gsmm", config_name="config")
 def main(cfg: DictConfig):
     mlflow.set_tracking_uri("file://" + hydra.utils.get_original_cwd() + "/mlruns")
     mlflow.set_experiment(experiment_name=cfg.experiment_name)
